@@ -1,0 +1,45 @@
+
+
+/*! الخطوط */
+/* @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap'); */
+
+
+
+/*! ألوان الموقع */
+/* :root {
+    --color-green: #03A237;
+    --color-yellow: #FFBD04 ;
+    --color-White: #fff;
+    --color-red: #F05A72;
+    --color-gray: #343434;
+    --color-blue: #0577AB;
+    --borderBg: #8080806E;
+} */
+
+
+
+/* body {
+    font-family: "Vazirmatn", sans-serif;
+    background-color: #0A0A0A;
+    color: var(--color-White);
+} */
+
+* {
+    outline: none;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-White);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+
+/*! Globals */
+
+
