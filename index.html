@@ -24,63 +24,538 @@
         <link rel="stylesheet" href="./css/general.css">
         <!-- Responsive -->
         <link rel="stylesheet" href="./css/responsive.css">
-        <!-- Animation Css -->
-        <link rel="stylesheet" href="./css/animation.css">
 </head>
 <body>
 
-    <!-- join-panner -->
-    <section class="m-section">
-        <div class="main-container">
-            <div class="join-panner">
-                <!--  -->
-                <div class="panner-text">
-                    <h3 class="sub-title">انضم الينا كبائع</h3>
-                    <p>حوّل أفكارك ومنتجاتك الرقمية إلى دخل حقيقي.</p>
-                    <a href="" class="main_btn" data-bs-toggle="modal" data-bs-target="#join"> انضم الان </a>
-                </div>
-                <!--  -->
-                <div class="panner-slogen">
-                    <img src="./assets/images/start selling.png" alt="" />
-                </div>
+    <main class="m-2">
+        <div class="container-fluid">
 
-                <!--! ******************************************** ! -->
-                <div class="panner-tree">
-                    <figure>
-                        <img src="./assets/images/tree.png" alt="">
-                    </figure>
-                </div>
-                <!--! ******************************************** !-->
-            </div>
-        </div>
-    </section>
+            <div class="row justify-content-center">
 
-    <section>
-        <div class="container train">
-            <div class="row row-train px-0">
-
-                <div class="col-md-6">
-                    <div class="train p-4">
-                        <h5>أهلاً، محمد  👋</h5>
-                        <p>نتمنى لك يوم عمل موفق  يمكنك مباشرة تسجيل المفقودات الجديدة بكل سهولة.</p>
-                        <button class="btn btn-outline-success w-25">اضافة مفقود</button>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="images">
-                        <div class="tow-container">
-                            <img src="./assets/images/Tow-bars.svg" class="tow-bars" alt=""> <!-- قضبان القطر  -->
-                            <img src="./assets/images/Towing station.svg" class="towing-station" alt=""> <!-- محطة القطر  -->
+                <div class="col-md-2">
+                    <aside>
+                        <div class="image">
+                            <img src="./assets/images/Logo.svg" class="img-fluid" alt="">
                         </div>
-                        <img src="./assets/images/train.svg" class="train" alt=""> <!-- القطر  -->
-                        <div class="light"></div>
 
+                        <ul class="links">
+                            <li class="active">
+                                <img src="./assets/images/sidebar-1.svg" alt="">
+                                <a href="">الرئيسية</a>
+                            </li>
+                            <li>
+                                <img src="./assets/images/sidebar-2.svg" alt="">
+                                <a href="">المفقودات</a>
+                            </li>
+                            <li>
+                                <img src="./assets/images/sidebar-3.svg" alt="">
+                                <a href="">المطابقة الذكية</a>
+                            </li>
+                            <li>
+                                <img src="./assets/images/sidebar-4.svg" alt="">
+                                <a href="">المحادثات</a>
+                            </li>
+                            <li>
+                                <img src="./assets/images/sidebar-5.svg" alt="">
+                                <a href="">السجلات</a>
+                            </li>
+                            <li>
+                                <img src="./assets/images/sidebar-6.svg" alt="">
+                                <a href="">الإعدادات</a>
+                            </li>
+                            <li>
+                                <img src="./assets/images/sidebar-7.svg" alt="">
+                                <a href="">التحقق بخطوتين</a>
+                            </li>
+                        </ul>
+
+                        <div class="sidebar-bottom">
+                            <div class="image d-flex flex-column justify-content-center align-items-center">
+                                <img src="./assets/images/logo-bottom.svg" alt="">
+                                <img src="./assets/images/Frame.svg" alt="">
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+
+                <div class="col-md-7">
+                    <div class="container train">
+                        <div class="row row-train px-0">
+                            <div class="col-md-6">
+                                <div class="train p-4">
+                                    <h5><span class="fw-normal">أهلاً،</span> محمد 👋</h5>
+                                    <p>نتمنى لك يوم عمل موفق  يمكنك مباشرة تسجيل المفقودات الجديدة بكل سهولة.</p>
+                                    <button>اضافة مفقود</button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="images">
+                                    <div class="tow-container">
+                                        <img src="./assets/images/Tow-bars.svg" class="tow-bars" alt=""> <!-- قضبان القطر  -->
+                                        <img src="./assets/images/Towing station.svg" class="towing-station" alt=""> <!-- محطة القطر  -->
+                                    </div>
+                                    <img src="./assets/images/train.svg" class="train" alt=""> <!-- القطر  -->
+                                    <div class="light"></div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row cards py-3">
+                        <div class="col-lg-3">
+                            <div class="card text-white">
+                                <div class="text">
+                                    <h5>بلاغات اليوم</h5>
+                                    <span class="fw-bold fs-3">860</span>
+                                    <span>تم تسجيلها</span>
+                                </div>
+                                <div class="image">
+                                    <img src="./assets/images/card-1.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <div class="card text-white">
+                                <div class="text">
+                                    <h5>قيد المراجعة</h5>
+                                    <span class="fw-bold fs-3">860</span>
+                                    <span>في انتظار التطابق</span>
+                                </div>
+                                <div class="image">
+                                    <img src="./assets/images/card-2.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <div class="card text-white">
+                                <div class="text">
+                                    <h5>قيد الاستلام</h5>
+                                    <span class="fw-bold fs-3">860</span>
+                                    <span>بانتظار الاستلام</span>
+                                </div>
+                                <div class="image">
+                                    <img src="./assets/images/card-3.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <div class="card text-white">
+                                <div class="text">
+                                    <h5>بلاغ مكتمل</h5>
+                                    <span class="fw-bold fs-3">860</span>
+                                    <span>تم التسليم</span>
+                                </div>
+                                <div class="image">
+                                    <img src="./assets/images/card-4.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="table">
+                        <div class="head">
+                            <div class="right-part-form">
+                                <h3> المفقودات</h3>
+                            </div>
+                            <div class="left-part-form">
+                                <form>
+                                    <input type="search" placeholder="بحث">
+                                    <div class="btn-group">
+                                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            حالة المفقود
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                            ...
+                                        </ul>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>
+                                        <img src="./assets/images/arrow-table.svg" alt="">
+                                        الرقم
+                                    </td>
+                                    <td>
+                                        <img src="./assets/images/arrow-table.svg" alt="">
+                                        نوع المفقود
+                                    </td>
+                                    <td>
+                                        <img src="./assets/images/arrow-table.svg" alt="">
+                                        الوقت والتاريخ
+                                    </td>
+                                    <td>
+                                        <img src="./assets/images/arrow-table.svg" alt="">
+                                        اسم المحطة
+                                    </td>
+                                    <td>
+                                        <img src="./assets/images/arrow-table.svg" alt="">
+                                        رقم المحطة
+                                    </td>
+                                    <td>
+                                        <img src="./assets/images/arrow-table.svg" alt="">
+                                        حالة المفقود
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td><span>1</span></td>
+                                    <td><p>كتب و مستندات</p></td>
+                                    <td>
+                                        <span>2023-03-21</span>
+                                        <span>01:41 AM</span>
+                                    </td>
+                                    <td><p>Western Station Interchange A</p></td>
+                                    <td><span>42001</span></td>
+                                    <td>
+                                        <span class="status">قيد المراجعة</span>
+                                    </td>
+                                    <td>
+                                        <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
+                                    </td>
+                                    <td>
+                                        <span><img src="./assets/images/upd.svg" class="pointer" alt=""></span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><span>1</span></td>
+                                    <td><p>كتب و مستندات</p></td>
+                                    <td>
+                                        <span>2023-03-21</span>
+                                        <span>01:41 AM</span>
+                                    </td>
+                                    <td><p>Western Station Interchange A</p></td>
+                                    <td><span>42001</span></td>
+                                    <td>
+                                        <span class="status">قيد المراجعة</span>
+                                    </td>
+                                    <td>
+                                        <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
+                                    </td>
+                                    <td>
+                                        <span><img src="./assets/images/upd.svg" class="pointer" alt=""></span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><span>1</span></td>
+                                    <td><p>كتب و مستندات</p></td>
+                                    <td>
+                                        <span>2023-03-21</span>
+                                        <span>01:41 AM</span>
+                                    </td>
+                                    <td><p>Western Station Interchange A</p></td>
+                                    <td><span>42001</span></td>
+                                    <td>
+                                        <span class="status">قيد المراجعة</span>
+                                    </td>
+                                    <td>
+                                        <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
+                                    </td>
+                                    <td>
+                                        <span><img src="./assets/images/upd.svg" class="pointer"alt=""></span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><span>1</span></td>
+                                    <td><p>كتب و مستندات</p></td>
+                                    <td>
+                                        <span>2023-03-21</span>
+                                        <span>01:41 AM</span>
+                                    </td>
+                                    <td><p>Western Station Interchange A</p></td>
+                                    <td><span>42001</span></td>
+                                    <td>
+                                        <span class="status">قيد المراجعة</span>
+                                    </td>
+                                    <td>
+                                        <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
+                                    </td>
+                                    <td>
+                                        <span><img src="./assets/images/upd.svg" class="pointer" alt=""></span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><span>1</span></td>
+                                    <td><p>كتب و مستندات</p></td>
+                                    <td>
+                                        <span>2023-03-21</span>
+                                        <span>01:41 AM</span>
+                                    </td>
+                                    <td><p>Western Station Interchange A</p></td>
+                                    <td><span>42001</span></td>
+                                    <td>
+                                        <span class="status">قيد المراجعة</span>
+                                    </td>
+                                    <td>
+                                        <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
+                                    </td>
+                                    <td>
+                                        <span><img src="./assets/images/upd.svg" class="pointer" alt=""></span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><span>1</span></td>
+                                    <td><p>كتب و مستندات</p></td>
+                                    <td>
+                                        <span>2023-03-21</span>
+                                        <span>01:41 AM</span>
+                                    </td>
+                                    <td><p>Western Station Interchange A</p></td>
+                                    <td><span>42001</span></td>
+                                    <td>
+                                        <span class="status">قيد المراجعة</span>
+                                    </td>
+                                    <td>
+                                        <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
+                                    </td>
+                                    <td>
+                                        <span><img src="./assets/images/upd.svg" class="pointer" alt=""></span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><span>1</span></td>
+                                    <td><p>كتب و مستندات</p></td>
+                                    <td>
+                                        <span>2023-03-21</span>
+                                        <span>01:41 AM</span>
+                                    </td>
+                                    <td><p>Western Station Interchange A</p></td>
+                                    <td><span>42001</span></td>
+                                    <td>
+                                        <span class="status">قيد المراجعة</span>
+                                    </td>
+                                    <td>
+                                        <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
+                                    </td>
+                                    <td>
+                                        <span><img src="./assets/images/upd.svg" class="pointer" alt=""></span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><span>1</span></td>
+                                    <td><p>كتب و مستندات</p></td>
+                                    <td>
+                                        <span>2023-03-21</span>
+                                        <span>01:41 AM</span>
+                                    </td>
+                                    <td><p>Western Station Interchange A</p></td>
+                                    <td><span>42001</span></td>
+                                    <td>
+                                        <span class="status">قيد المراجعة</span>
+                                    </td>
+                                    <td>
+                                        <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
+                                    </td>
+                                    <td>
+                                        <span><img src="./assets/images/upd.svg" class="pointer" alt=""></span>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                        </table>
                     </div>
                 </div>
+
+                <div class="col-md-3">
+                    <div class="left-part">
+                        <div class="info">
+                            <div class="image">
+                                <img src="./assets/images/user.png" alt="">
+                                <div class="caption">
+                                    <h5 class="m-0">محمد بن عبدالله</h5>
+                                    <p>موظف</p>
+                                </div>
+                            </div>
+                            <div class="icons">
+                                <img src="./assets/images/moon.svg" alt="">
+                                <img src="./assets/images/EN.svg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="alerts bg-white mt-4 p-3 rounded-4">
+                            <h4>التنبيهات</h4>
+                            <div class="boxs">
+                                <div class="box d-flex justify-content-between align-items-end">
+                                    <div class="image d-flex justify-content-center align-items-start gap-2">
+                                        <img src="./assets/images/alarm.svg" alt="">
+                                        <div class="text">
+                                            <h5>بلاغ جديد</h5>
+                                            <p>تم تسجيل بلاغ جديد بمحطة Western A</p>
+                                        </div>
+                                    </div>
+                                    <div class="time">
+                                        <span class="fw-bold">منذ 8 دقائق</span>
+                                    </div>
+                                </div>
+
+                                <div class="box d-flex justify-content-between align-items-end">
+                                    <div class="image d-flex justify-content-center align-items-start gap-2">
+                                        <img src="./assets/images/alarm.svg" alt="">
+                                        <div class="text">
+                                            <h5>بلاغ جديد</h5>
+                                            <p>تم تسجيل بلاغ جديد بمحطة Western A</p>
+                                        </div>
+                                    </div>
+                                    <div class="time">
+                                        <span class="fw-bold">منذ 8 دقائق</span>
+                                    </div>
+                                </div>
+
+                                <div class="box d-flex justify-content-between align-items-end">
+                                    <div class="image d-flex justify-content-center align-items-start gap-2">
+                                        <img src="./assets/images/alarm.svg" alt="">
+                                        <div class="text">
+                                            <h5>بلاغ جديد</h5>
+                                            <p>تم تسجيل بلاغ جديد بمحطة Western A</p>
+                                        </div>
+                                    </div>
+                                    <div class="time">
+                                        <span class="fw-bold">منذ 8 دقائق</span>
+                                    </div>
+                                </div>
+
+                                <div class="box d-flex justify-content-between align-items-end">
+                                    <div class="image d-flex justify-content-center align-items-start gap-2">
+                                        <img src="./assets/images/alarm.svg" alt="">
+                                        <div class="text">
+                                            <h5>بلاغ جديد</h5>
+                                            <p>تم تسجيل بلاغ جديد بمحطة Western A</p>
+                                        </div>
+                                    </div>
+                                    <div class="time">
+                                        <span class="fw-bold">منذ 8 دقائق</span>
+                                    </div>
+                                </div>
+
+                                <div class="box d-flex justify-content-between align-items-end">
+                                    <div class="image d-flex justify-content-center align-items-start gap-2">
+                                        <img src="./assets/images/alarm.svg" alt="">
+                                        <div class="text">
+                                            <h5>بلاغ جديد</h5>
+                                            <p>تم تسجيل بلاغ جديد بمحطة Western A</p>
+                                        </div>
+                                    </div>
+                                    <div class="time">
+                                        <span class="fw-bold">منذ 8 دقائق</span>
+                                    </div>
+                                </div>
+
+                                <div class="box d-flex justify-content-between align-items-end">
+                                    <div class="image d-flex justify-content-center align-items-start gap-2">
+                                        <img src="./assets/images/alarm.svg" alt="">
+                                        <div class="text">
+                                            <h5>بلاغ جديد</h5>
+                                            <p>تم تسجيل بلاغ جديد بمحطة Western A</p>
+                                        </div>
+                                    </div>
+                                    <div class="time">
+                                        <span class="fw-bold">منذ 8 دقائق</span>
+                                    </div>
+                                </div>
+
+                                <div class="box d-flex justify-content-between align-items-end">
+                                    <div class="image d-flex justify-content-center align-items-start gap-2">
+                                        <img src="./assets/images/alarm.svg" alt="">
+                                        <div class="text">
+                                            <h5>بلاغ جديد</h5>
+                                            <p>تم تسجيل بلاغ جديد بمحطة Western A</p>
+                                        </div>
+                                    </div>
+                                    <div class="time">
+                                        <span class="fw-bold">منذ 8 دقائق</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="register-today">
+
+                            <div class="head">
+                                <h5>سجل اليوم</h5>
+                                <p>14 أكتوبر 2025</p>
+                            </div>
+
+                            <div class="body d-flex justify-content-between flex-wrap gap-3 pt-2">
+
+                                <div class="item d-flex flex-column justify-content-evenly align-items-center">
+                                    <div class="icon d-flex justify-content-evenly align-items-center gap-2">
+                                        <img src="./assets/images/time-icon.svg" alt="">
+                                        <h5 class="m-0">بداية الدوام</h5>
+                                    </div>
+                                    <div class="time d-flex justify-content-evenly align-items-center gap-2">
+                                        <h4>07:00</h4>
+                                        <p>صباحا</p>
+                                    </div>
+                                </div>
+
+                                <div class="item d-flex flex-column justify-content-evenly align-items-center">
+                                    <div class="icon d-flex justify-content-evenly align-items-center gap-2">
+                                        <img src="./assets/images/time-icon.svg" alt="">
+                                        <h5 class="m-0">بداية الدوام</h5>
+                                    </div>
+                                    <div class="time d-flex justify-content-evenly align-items-center gap-2">
+                                        <h4>07:00</h4>
+                                        <p>صباحا</p>
+                                    </div>
+                                </div>
+
+                                <div class="item d-flex flex-column justify-content-evenly align-items-center">
+                                    <div class="icon d-flex justify-content-evenly align-items-center gap-2">
+                                        <img src="./assets/images/time-icon.svg" alt="">
+                                        <h5 class="m-0">بداية الدوام</h5>
+                                    </div>
+                                    <div class="time d-flex justify-content-evenly align-items-center gap-2">
+                                        <h4>07:00</h4>
+                                        <p>صباحا</p>
+                                    </div>
+                                </div>
+
+                                <div class="item d-flex flex-column justify-content-evenly align-items-center">
+                                    <div class="icon d-flex justify-content-evenly align-items-center gap-2">
+                                        <img src="./assets/images/time-icon.svg" alt="">
+                                        <h5 class="m-0">بداية الدوام</h5>
+                                    </div>
+                                    <div class="time d-flex justify-content-evenly align-items-center gap-2">
+                                        <h4>07:00</h4>
+                                        <p>صباحا</p>
+                                    </div>
+                                </div>
+
+                                <button>اضغط لإنهاء دوامك</button>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-    </section>
+    </main>
+
+
+
 
 
     <!-- Owl library js -->

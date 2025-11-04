@@ -1,0 +1,33 @@
+<svg width="155" height="120" viewBox="0 0 155 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.15" clip-path="url(#clip0_29_500)" filter="url(#filter0_n_29_500)">
+<rect width="52.2462" height="420.756" transform="matrix(0.906308 -0.422618 -0.422618 -0.906308 107.235 253.029)" fill="#FEB48C"/>
+<rect x="33.1829" y="94.2238" width="52.2462" height="26.1231" transform="rotate(-25 33.1829 94.2238)" fill="#1F0C00"/>
+<rect x="11.1021" y="46.8733" width="52.2462" height="26.1231" transform="rotate(-25 11.1021 46.8733)" fill="#482401"/>
+<rect x="44.2246" y="117.9" width="36.9762" height="36.9762" transform="rotate(-70 44.2246 117.9)" fill="#1F0C00"/>
+<rect width="52.2462" height="26.1231" transform="matrix(0.906308 -0.422618 -0.422618 -0.906308 33.1829 94.2238)" fill="#1F0C00"/>
+<rect width="36.9762" height="36.9762" transform="matrix(0.939693 0.34202 0.34202 -0.939693 22.1425 70.5489)" fill="#FFD7C6"/>
+<rect width="36.9762" height="36.9762" transform="matrix(0.939693 0.34202 0.34202 -0.939693 34.7798 35.8329)" fill="#482401"/>
+<rect width="36.9762" height="36.9762" transform="matrix(0.939693 0.34202 0.34202 -0.939693 -12.5728 57.9136)" fill="#482401"/>
+</g>
+<defs>
+<filter id="filter0_n_29_500" x="-70.5844" y="-150.386" width="225.17" height="403.415" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feTurbulence type="fractalNoise" baseFrequency="5.7420439720153809 5.7420439720153809" stitchTiles="stitch" numOctaves="3" result="noise" seed="4177" />
+<feColorMatrix in="noise" type="luminanceToAlpha" result="alphaNoise" />
+<feComponentTransfer in="alphaNoise" result="coloredNoise1">
+<feFuncA type="discrete" tableValues="0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
+</feComponentTransfer>
+<feComposite operator="in" in2="shape" in="coloredNoise1" result="noise1Clipped" />
+<feFlood flood-color="rgba(25, 48, 25, 0.25)" result="color1Flood" />
+<feComposite operator="in" in2="noise1Clipped" in="color1Flood" result="color1" />
+<feMerge result="effect1_noise_29_500">
+<feMergeNode in="shape" />
+<feMergeNode in="color1" />
+</feMerge>
+</filter>
+<clipPath id="clip0_29_500">
+<rect width="52.2462" height="420.756" fill="white" transform="matrix(0.906308 -0.422618 -0.422618 -0.906308 107.235 253.029)"/>
+</clipPath>
+</defs>
+</svg>
