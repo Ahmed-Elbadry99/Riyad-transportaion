@@ -56,11 +56,19 @@ ul {
 /* ********************************************************************************************************************************************************* */
 @font-face {
   font-family: "font_main";
-  src: url("../fonts/Asm\ Font.otf");
+  src: url("../fonts/CodecPro-Regular.ttf");
 }
 @font-face {
   font-family: "font_bold";
-  src: url("../fonts/Almarai-Bold.ttf");
+  src: url("../fonts/CodecPro-Bold.ttf");
+}
+@font-face {
+  font-family: "font_extra-bold";
+  src: url("../fonts/CodecPro-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "font_light";
+  src: url("../fonts/CodecPro-Light.ttf");
 }
 
 :root {
@@ -139,10 +147,17 @@ h3 {
 
 h4 {
   font-size: 16px;
-
   margin: 0;
-
   line-height: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "font_bold";
 }
 
 p {
@@ -163,11 +178,11 @@ img,
 
 ::selection {
   color: var(--color-white) !important;
-  background-color: var(--color-secondary) !important;
+  background-color: var(--light-green) !important;
 }
 
 body {
-  background: #fff;
+  /* background: #fff; */
   font-family: "font_main";
   font-weight: 400;
   padding: 0;
@@ -178,24 +193,24 @@ body {
   overflow-x: hidden;
 }
 
-body {
+/* body {
   scrollbar-width: thin;
   scrollbar-color: var(--thumbBG) var(--scrollbarBG);
 }
 
-body::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   background: var(--scrollbarBG);
 }
 
-body::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background-color: var(--thumbBG);
   border-radius: 0;
   border: 0 solid var(--scrollbarBG);
 }
 
-body::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 11px;
-}
+} */
 
 .main-container{
   width: 90%;
@@ -210,6 +225,8 @@ body::-webkit-scrollbar {
 #app {
   flex: 1 0 auto;
   overflow: hidden;
+
+    padding: 15px;
 }
 
 .not_found {
