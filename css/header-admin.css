@@ -279,7 +279,7 @@
     position: relative;
     margin-block: 10px;
 }
-.container.train::before {
+/* .container.train::before {
     content: "";
     width: 2000px;
     height: 20px;
@@ -289,7 +289,7 @@
     left: -103%;
     transform: rotate(139deg) translateX(0);
     animation: bg-train2 20s linear infinite;
-}
+} */
 
 @keyframes bg-train {
     0% {
@@ -323,7 +323,7 @@
 
 .row-train .images {
     position: relative;
-    width: 450px;
+    width: 900px;
     display: block;
     height: 100%;
 }
@@ -343,7 +343,8 @@
 
 .row-train .tow-container {
     position: absolute;
-    left: -100px;
+    /* left: -100px; */
+    left: 35%;
     bottom: 0;
     width: 440px;
     overflow: hidden;
@@ -366,7 +367,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    animation: slide 4s linear infinite;
+    /* animation: slide 4s linear infinite; */
 }
 
 .row-train .images .towing-station { /* محطة القطر */
@@ -375,12 +376,13 @@
     bottom: 35px;
     transform: translateX(70px);
     z-index: 0;
-    animation: show-station 4s linear infinite;
+    /* animation: show-station 4s linear infinite; */
 }
 
 .row-train .images .train {
     position: absolute;
-    left: -122%;
+    /* left: -122%; */
+    left: -15%;
     bottom: 5px;
     z-index: 5;
 }
@@ -523,7 +525,7 @@
   color: #606060;
 }
 .table .head form input {
-    padding: 5px;
+    padding: 7px;
     border: 1px solid #ccc;
     border-radius: 10px;
     width: 300px;
@@ -542,16 +544,24 @@
 .table-container table {
   width: 100%;
   min-width: 900px;
-  /* table-layout: fixed; */
-  /* width: max-content; */
+  table-layout: fixed;
+  border-collapse: collapse;
 }
 .table-container th,
 .table-container td {
   border: 1px solid #ddd;
-  padding: 10px;
+  /* padding: 10px; */
   text-align: center;
-  /* white-space: nowrap; */
 }
+.table-container td {
+  word-wrap: break-word;
+  white-space: normal;
+  border: none;
+}
+.table-container tr {
+  border-bottom: 1px solid #ddd;
+}
+
 table {
     width: 100%;
     border-radius: 10px;
@@ -563,21 +573,55 @@ table thead tr {
     color: var(--color-white) !important;
 }
 table tr td {
-    padding: 10px;
+    padding: 10px 0;
     text-align: center;
     vertical-align: middle;
 }
-table tbody .status {
-    padding: 2px 10px;
+.table-container thead td {
+  padding: 10px 0;
+  font-size: 15px;
+  }
+
+
+
+
+.pending { /* قيد المراجعة */
+    padding: 5px 10px;
+    font-size: 12px;
     border: 1px solid var(--dark-purple);
     border-radius: 15px;
     background-color: var(--light-purple);
     color: var(--dark-purple);
 }
+.matched { /* تم التطابق */
+    padding: 5px 10px;
+    font-size: 12px;
+    border: 1px solid var(--dark-orange);
+    border-radius: 15px;
+    background-color: var(--light-orange);
+    color: var(--dark-orange);
+}
+.done { /* تم التسليم */
+    padding: 5px 10px;
+    font-size: 12px;
+    border: 1px solid #1CAE01;
+    border-radius: 15px;
+    background-color: #C7FFC5;
+    color: #1CAE01;
+}
+.new { /* مفقود جديد */
+    padding: 5px 10px;
+    font-size: 12px;
+    border: 1px solid var(--dark-red);
+    border-radius: 15px;
+    background-color: var(--light-red);
+    color: var(--dark-red);
+}
+
 table tbody p,
 table tbody span {
     word-break: break-all;
-    font-size: 15px;
+    font-size: 13px;
     display: block;
 }
 table tbody tr {
@@ -597,13 +641,19 @@ table tbody tr td img:hover {
     transform: rotate(360deg);
 }
 
+.left-part-form form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 
 /*! ************************ Left-Part ************************ */
 .left-part {
-    min-width: 400px;
-    padding: 20px;
+    /* padding: 20px; */
     overflow-y: auto;
     height: 100%;
+    flex: 1;
 }
 .left-part .image img {
     width: 40px;
@@ -662,6 +712,13 @@ table tbody tr td img:hover {
     margin-block: 20px;
     padding: 10px;
 }
+.left-part .register-today .body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 .left-part .register-today .head {
     display: flex;
     justify-content: space-between;
@@ -679,8 +736,9 @@ table tbody tr td img:hover {
 .left-part .register-today .body .item {
     border: 1px solid var(--light-green);
     border-radius: 10px;
-    width: 150px;
-    height: 100px;
+    /* width: 150px;
+    height: 100px; */
+    padding: 20px 10px;
     background: linear-gradient(135deg, #8af08500, #b8f3c861);;
 }
 .left-part .register-today .body .item h4 {
@@ -743,38 +801,64 @@ table tbody tr td img:hover {
 
 
 
-/* .dropbtn {
-  padding: 5px 10px;
-  font-size: 16px;
-  border-radius: 5px;
-}
 
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #2980B9;
-}
 
 .dropdown {
   position: relative;
-  display: inline-block;
 }
 
-.dropdown-content {
-  display: none;
+#dropdownBtn {
+    /* background: linear-gradient(135deg, var(--dark-green), var(--light-green)); */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 20px;
+    transition: all 0.3s ease;
+    background-color: var(--light-green);
+}
+#dropdownBtn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 8px #3bd132a6;
+}
+#dropdownBtn span {
+  font-size: 10px;
+}
+.dropdown-list {
   position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  top: 103%;
+  right: 0;
+  background: #fff;
+  width: 200px;
+  border-radius: 14px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  list-style: none;
+  padding: 10px 0;
+  overflow: hidden;
+  transform-origin: top;
+  transform: scaleY(0);
+  opacity: 0;
+  transition: all 0.3s ease;
+  z-index: 100;
+  border: 1px solid var(--light-green);
 }
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+.dropdown.active .dropdown-list {
+  transform: scaleY(1);
+  opacity: 1;
 }
 
-.dropdown a:hover {background-color: #ddd;}
+.dropdown-list li a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #333;
+  font-weight: 500;
+  padding: 10px;
+  transition: 0.3s;
+}
 
-.show {display: block;} */
+.dropdown-list li a:hover {
+  background-color: #f3f3f3;
+  color: var(--light-green);
+  padding-right: 20px;
+}

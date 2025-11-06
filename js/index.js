@@ -14,6 +14,15 @@ sidebar.addEventListener('scroll', () => {
     }, 1000);
 });
 
+
+
+
+
+
+
+
+
+
 //! Button Notification
 const btnNotification = document.querySelector(".top-content .info .icons button.notification");
 const leftPart = document.querySelector(".left-part");
@@ -31,21 +40,26 @@ closeIcon.addEventListener("click",function(){
 
 
 
-//! Dropdown Btn
-// function myFunction() {
-//   document.getElementById("myDropdown").classList.toggle("show");
-// }
 
-// Close the dropdown if the user clicks outside of it
-// window.onclick = function(event) {
-//   if (!event.target.matches('.dropbtn')) {
-//     var dropdowns = document.getElementsByClassName("dropdown-content");
-//     var i;
-//     for (i = 0; i < dropdowns.length; i++) {
-//       var openDropdown = dropdowns[i];
-//       if (openDropdown.classList.contains('show')) {
-//         openDropdown.classList.remove('show');
-//       }
-//     }
-//   }
-// }
+
+
+
+
+
+
+
+//! Dropdown Btn
+const dropdown = document.querySelector(".dropdown");
+const btn = document.getElementById("dropdownBtn");
+
+btn.addEventListener("click", () => {
+    dropdown.classList.toggle("active");
+});
+
+// يقفل القايمة لما تدوسي براها 👇
+window.addEventListener("click", (e) => {
+    if (!dropdown.contains(e.target)) {
+        dropdown.classList.remove("active");
+    }
+});
+

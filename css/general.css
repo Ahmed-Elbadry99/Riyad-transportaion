@@ -21,7 +21,9 @@
 :root {
     --color-white: #fff;
     --color-black: #000;
+
     --dark-red: #FE3232;
+    --light-red: #FFEDED;
 
     --light-red: #FFEDED;
     --dark-green: #003200;

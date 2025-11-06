@@ -221,7 +221,7 @@
 
                         <div class="app-data">
                             <!--? ********************* Train ********************* -->
-                            <!-- <div class="container train">
+                            <div class="container train">
                                 <div class="row row-train px-0">
                                     <div class="col-md-6">
                                         <div class="train p-4">
@@ -234,17 +234,16 @@
                                     <div class="col-md-6">
                                         <div class="images">
                                             <div class="tow-container">
-                                                <img src="./assets/images/Tow-bars.svg" class="tow-bars" alt="">
-                                                <img src="./assets/images/Towing station.svg" class="towing-station" alt="">
+                                                <!-- <img src="./assets/images/Tow-bars.svg" class="tow-bars" alt=""> -->
+                                                <!-- <img src="./assets/images/Towing station.svg" class="towing-station" alt=""> -->
                                             </div>
                                             <img src="./assets/images/train.svg" class="train" alt="">
-                                            <div class="light"></div>
+                                            <!-- <div class="light"></div> -->
 
                                         </div>
                                     </div>
                                 </div>
-                            </div> -->
-
+                            </div>
 
                             <div class="row cards g-2">
                                 <div class="col-card col-sm-12 col-md-6 col-lg-3">
@@ -308,29 +307,19 @@
                                     <div class="left-part-form">
                                         <form>
                                             <input type="search" placeholder="بحث">
-                                            <div class="btn-group">
-                                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                    حالة المفقود
+                                            <!-- Dropdown Btn -->
+                                            <div class="dropdown">
+                                                <button id="dropdownBtn" type="button">
+                                                    حالة المفقود <span class="arrow">▼</span>
                                                 </button>
-                                                <ul class="dropdown-menu">
+
+                                                <ul class="dropdown-list">
                                                     <li><a class="dropdown-item" href="#">قيد المراجعة</a></li>
                                                     <li><a class="dropdown-item" href="#">تم التطابق</a></li>
                                                     <li><a class="dropdown-item" href="#">تم التسليم</a></li>
                                                     <li><a class="dropdown-item" href="#">مفقود جديد</a></li>
                                                 </ul>
                                             </div>
-
-                                            <!-- Dropdown Btn -->
-
-                                        <!-- <div class="dropdown">
-                                            <button onclick="myFunction()" class="dropbtn" type="button">حالة المفقود</button>
-                                            <div id="myDropdown" class="dropdown-content">
-                                                <a href="#home">قيد المراجعة</a>
-                                                <a href="#about">تم التطابق</a>
-                                                <a href="#contact">مفقود جديد</a>
-                                            </div>
-                                        </div> -->
-
                                         </form>
                                     </div>
                                 </div>
@@ -379,7 +368,7 @@
                                                 <td><p>Western Station Interchange A</p></td>
                                                 <td><span>42001</span></td>
                                                 <td>
-                                                    <span class="status">قيد المراجعة</span>
+                                                    <span class="pending">قيد المراجعة</span>
                                                 </td>
                                                 <td>
                                                     <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
@@ -399,7 +388,7 @@
                                                 <td><p>Western Station Interchange A</p></td>
                                                 <td><span>42001</span></td>
                                                 <td>
-                                                    <span class="status">قيد المراجعة</span>
+                                                    <span class="matched">تم التطابق</span>
                                                 </td>
                                                 <td>
                                                     <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
@@ -419,27 +408,7 @@
                                                 <td><p>Western Station Interchange A</p></td>
                                                 <td><span>42001</span></td>
                                                 <td>
-                                                    <span class="status">قيد المراجعة</span>
-                                                </td>
-                                                <td>
-                                                    <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
-                                                </td>
-                                                <td>
-                                                    <span><img src="./assets/images/upd.svg" class="pointer"alt=""></span>
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td><span>1</span></td>
-                                                <td><p>كتب و مستندات</p></td>
-                                                <td>
-                                                    <span>2023-03-21</span>
-                                                    <span>01:41 AM</span>
-                                                </td>
-                                                <td><p>Western Station Interchange A</p></td>
-                                                <td><span>42001</span></td>
-                                                <td>
-                                                    <span class="status">قيد المراجعة</span>
+                                                    <span class="done">تم التسليم</span>
                                                 </td>
                                                 <td>
                                                     <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
@@ -459,7 +428,7 @@
                                                 <td><p>Western Station Interchange A</p></td>
                                                 <td><span>42001</span></td>
                                                 <td>
-                                                    <span class="status">قيد المراجعة</span>
+                                                    <span class="new">مفقود جديد</span>
                                                 </td>
                                                 <td>
                                                     <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
@@ -479,7 +448,7 @@
                                                 <td><p>Western Station Interchange A</p></td>
                                                 <td><span>42001</span></td>
                                                 <td>
-                                                    <span class="status">قيد المراجعة</span>
+                                                    <span class="pending">قيد المراجعة</span>
                                                 </td>
                                                 <td>
                                                     <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
@@ -499,7 +468,7 @@
                                                 <td><p>Western Station Interchange A</p></td>
                                                 <td><span>42001</span></td>
                                                 <td>
-                                                    <span class="status">قيد المراجعة</span>
+                                                    <span class="matched">تم التطابق</span>
                                                 </td>
                                                 <td>
                                                     <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
@@ -519,7 +488,7 @@
                                                 <td><p>Western Station Interchange A</p></td>
                                                 <td><span>42001</span></td>
                                                 <td>
-                                                    <span class="status">قيد المراجعة</span>
+                                                    <span class="done">تم التسليم</span>
                                                 </td>
                                                 <td>
                                                     <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
@@ -530,7 +499,7 @@
                                             </tr>
 
                                             <tr>
-                                                <td><span>5</span></td>
+                                                <td><span>1</span></td>
                                                 <td><p>كتب و مستندات</p></td>
                                                 <td>
                                                     <span>2023-03-21</span>
@@ -539,67 +508,7 @@
                                                 <td><p>Western Station Interchange A</p></td>
                                                 <td><span>42001</span></td>
                                                 <td>
-                                                    <span class="status">قيد المراجعة</span>
-                                                </td>
-                                                <td>
-                                                    <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
-                                                </td>
-                                                <td>
-                                                    <span><img src="./assets/images/upd.svg" class="pointer" alt=""></span>
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td><span>6</span></td>
-                                                <td><p>كتب و مستندات</p></td>
-                                                <td>
-                                                    <span>2023-03-21</span>
-                                                    <span>01:41 AM</span>
-                                                </td>
-                                                <td><p>Western Station Interchange A</p></td>
-                                                <td><span>42001</span></td>
-                                                <td>
-                                                    <span class="status">قيد المراجعة</span>
-                                                </td>
-                                                <td>
-                                                    <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
-                                                </td>
-                                                <td>
-                                                    <span><img src="./assets/images/upd.svg" class="pointer" alt=""></span>
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td><span>6</span></td>
-                                                <td><p>كتب و مستندات</p></td>
-                                                <td>
-                                                    <span>2023-03-21</span>
-                                                    <span>01:41 AM</span>
-                                                </td>
-                                                <td><p>Western Station Interchange A</p></td>
-                                                <td><span>42001</span></td>
-                                                <td>
-                                                    <span class="status">قيد المراجعة</span>
-                                                </td>
-                                                <td>
-                                                    <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
-                                                </td>
-                                                <td>
-                                                    <span><img src="./assets/images/upd.svg" class="pointer" alt=""></span>
-                                                </td>
-                                            </tr>
-
-                                            <tr>
-                                                <td><span>6</span></td>
-                                                <td><p>كتب و مستندات</p></td>
-                                                <td>
-                                                    <span>2023-03-21</span>
-                                                    <span>01:41 AM</span>
-                                                </td>
-                                                <td><p>Western Station Interchange A</p></td>
-                                                <td><span>42001</span></td>
-                                                <td>
-                                                    <span class="status">قيد المراجعة</span>
+                                                    <span class="new">مفقود جديد</span>
                                                 </td>
                                                 <td>
                                                     <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
@@ -734,7 +643,7 @@
                                     <p>14 أكتوبر 2025</p>
                                 </div>
 
-                                <div class="body d-flex justify-content-between flex-wrap gap-3 pt-2">
+                                <div class="body">
 
                                     <div class="item d-flex flex-column justify-content-evenly align-items-center">
                                         <div class="icon d-flex justify-content-evenly align-items-center gap-2">
@@ -798,7 +707,7 @@
             src="https://code.jquery.com/jquery-3.4.1.min.js"
             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
             crossorigin="anonymous">
-        </script>
+        </script> 
         <script
             src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
             integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
