@@ -1,3 +1,23 @@
+.main_btn{
+
+  background-color:var(--light-green) ;
+  color: white;
+  width: fit-content;
+  height: 40px;
+  text-align: center;
+  align-content: center;
+  border-radius: 8px;
+  transition: .3s all;
+  display: block;
+}
+
+
+.main_btn:hover{
+
+  background-color: #fff;
+  color: var(--light-green);
+}
+
 .main-app {
   width: 100%;
   position: relative;
@@ -311,6 +331,20 @@
     }
 }
 
+.train{
+display: flex;
+justify-content: center;
+gap: 5px;
+  margin-block: 10px;
+}
+
+
+.train-text{
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
 .row-train {
     color: #fff;
     padding: 20px;
@@ -318,6 +352,8 @@
     border-radius: 20px;
     overflow: hidden;
     background: #0a8d0a;
+    width: 100%;
+
     /* animation: move-gradient 6s linear infinite; */
 }
 
@@ -326,6 +362,8 @@
     width: 900px;
     display: block;
     height: 100%;
+    display: flex;
+    justify-content: end;
 }
 
 .row-train .train button {
@@ -380,12 +418,14 @@
 }
 
 .row-train .images .train {
-    position: absolute;
+    position: relative;
     /* left: -122%; */
-    left: -15%;
+    left: 0%;
     bottom: 5px;
     z-index: 5;
 }
+
+
 
 @keyframes slide {
     0% {
@@ -544,7 +584,7 @@
 .table-container table {
   width: 100%;
   min-width: 900px;
-  table-layout: fixed;
+  /* table-layout: fixed; */
   border-collapse: collapse;
 }
 .table-container th,
@@ -557,6 +597,8 @@
   word-wrap: break-word;
   white-space: normal;
   border: none;
+  min-width: 50px;
+  max-width: 300px;
 }
 .table-container tr {
   border-bottom: 1px solid #ddd;
@@ -629,7 +671,7 @@ table tbody tr {
     transition: .3s;
 }
 table tbody tr:hover {
-    background-color: #ddddddd6;
+    background-color: #ebebebd6;
 }
 table tbody tr td img {
     transition: .5s;
@@ -688,6 +730,23 @@ table tbody tr td img:hover {
     border-bottom: 1px solid #EAEAEA;
     padding-block: 10px;
 }
+
+.left-part .alerts .box{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 5px;
+  transition: .3s all;
+  padding: 4px;
+}
+
+
+.left-part .alerts .box:hover{
+
+
+      background-color: #ebebebd6;
+}
 .left-part .alerts .box .image img {
     width: 30px;
     height: 30px;
@@ -700,9 +759,16 @@ table tbody tr td img:hover {
 }
 .left-part .alerts .box .image .text p {
     font-size: 10px;
+      display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1; /* عدد الأسطر المسموح بها */
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .left-part .alerts .box .time span {
     font-size: 8px;
+
+      white-space: nowrap;
 }
 
 .left-part .register-today {
@@ -781,6 +847,13 @@ table tbody tr td img:hover {
   transition: .5s;
   padding: 20px 10px;
 }
+
+
+.left-part .alerts{
+
+      padding: 10px;
+      border-radius: 20px
+}
 .left-part.responsive .alerts {
   padding: 20px;
   margin: 20px 0;
@@ -799,6 +872,17 @@ table tbody tr td img:hover {
 
 
 
+
+.left-part .close-icon{
+    
+    display: none ;
+
+}
+
+
+.left-part.responsive .close-icon{
+    display: block ;
+}
 
 
 

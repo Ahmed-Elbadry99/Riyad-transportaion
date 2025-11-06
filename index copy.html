@@ -221,29 +221,30 @@
 
                         <div class="app-data">
                             <!--? ********************* Train ********************* -->
-                            <div class=" train">
+                            <!-- <div class="container train">
                                 <div class="row row-train px-0">
-                                    <div class="col-lg-7 col-md-12">
-                                        <div class="train-text p-4">
+                                    <div class="col-md-6">
+                                        <div class="train p-4">
                                             <h5><span class="fw-normal">أهلاً،</span> محمد 👋</h5>
                                             <p>نتمنى لك يوم عمل موفق  يمكنك مباشرة تسجيل المفقودات الجديدة بكل سهولة.</p>
-                                            <a href="" class="main_btn">اضافة مفقود</a>
+                                            <button>اضافة مفقود</button>
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-5  col-md-12">
+                                    <div class="col-md-6">
                                         <div class="images">
-                                            <!-- <div class="tow-container">
+                                            <div class="tow-container">
                                                 <img src="./assets/images/Tow-bars.svg" class="tow-bars" alt="">
                                                 <img src="./assets/images/Towing station.svg" class="towing-station" alt="">
-                                            </div> -->
+                                            </div>
                                             <img src="./assets/images/train.svg" class="train" alt="">
-                                            <!-- <div class="light"></div> -->
+                                            <div class="light"></div>
 
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
+
 
                             <div class="row cards g-2">
                                 <div class="col-card col-sm-12 col-md-6 col-lg-3">
@@ -307,19 +308,29 @@
                                     <div class="left-part-form">
                                         <form>
                                             <input type="search" placeholder="بحث">
-                                            <!-- Dropdown Btn -->
-                                            <div class="dropdown">
-                                                <button id="dropdownBtn" type="button">
-                                                    حالة المفقود <span class="arrow">▼</span>
+                                            <div class="btn-group">
+                                                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    حالة المفقود
                                                 </button>
-
-                                                <ul class="dropdown-list">
+                                                <ul class="dropdown-menu">
                                                     <li><a class="dropdown-item" href="#">قيد المراجعة</a></li>
                                                     <li><a class="dropdown-item" href="#">تم التطابق</a></li>
                                                     <li><a class="dropdown-item" href="#">تم التسليم</a></li>
                                                     <li><a class="dropdown-item" href="#">مفقود جديد</a></li>
                                                 </ul>
                                             </div>
+
+                                            <!-- Dropdown Btn -->
+
+                                        <!-- <div class="dropdown">
+                                            <button onclick="myFunction()" class="dropbtn" type="button">حالة المفقود</button>
+                                            <div id="myDropdown" class="dropdown-content">
+                                                <a href="#home">قيد المراجعة</a>
+                                                <a href="#about">تم التطابق</a>
+                                                <a href="#contact">مفقود جديد</a>
+                                            </div>
+                                        </div> -->
+
                                         </form>
                                     </div>
                                 </div>
@@ -368,7 +379,7 @@
                                                 <td><p>Western Station Interchange A</p></td>
                                                 <td><span>42001</span></td>
                                                 <td>
-                                                    <span class="pending">قيد المراجعة</span>
+                                                    <span class="status">قيد المراجعة</span>
                                                 </td>
                                                 <td>
                                                     <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
@@ -388,7 +399,7 @@
                                                 <td><p>Western Station Interchange A</p></td>
                                                 <td><span>42001</span></td>
                                                 <td>
-                                                    <span class="matched">تم التطابق</span>
+                                                    <span class="status">قيد المراجعة</span>
                                                 </td>
                                                 <td>
                                                     <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
@@ -408,7 +419,27 @@
                                                 <td><p>Western Station Interchange A</p></td>
                                                 <td><span>42001</span></td>
                                                 <td>
-                                                    <span class="done">تم التسليم</span>
+                                                    <span class="status">قيد المراجعة</span>
+                                                </td>
+                                                <td>
+                                                    <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
+                                                </td>
+                                                <td>
+                                                    <span><img src="./assets/images/upd.svg" class="pointer"alt=""></span>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><span>1</span></td>
+                                                <td><p>كتب و مستندات</p></td>
+                                                <td>
+                                                    <span>2023-03-21</span>
+                                                    <span>01:41 AM</span>
+                                                </td>
+                                                <td><p>Western Station Interchange A</p></td>
+                                                <td><span>42001</span></td>
+                                                <td>
+                                                    <span class="status">قيد المراجعة</span>
                                                 </td>
                                                 <td>
                                                     <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
@@ -428,7 +459,7 @@
                                                 <td><p>Western Station Interchange A</p></td>
                                                 <td><span>42001</span></td>
                                                 <td>
-                                                    <span class="new">مفقود جديد</span>
+                                                    <span class="status">قيد المراجعة</span>
                                                 </td>
                                                 <td>
                                                     <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
@@ -448,7 +479,7 @@
                                                 <td><p>Western Station Interchange A</p></td>
                                                 <td><span>42001</span></td>
                                                 <td>
-                                                    <span class="pending">قيد المراجعة</span>
+                                                    <span class="status">قيد المراجعة</span>
                                                 </td>
                                                 <td>
                                                     <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
@@ -468,7 +499,7 @@
                                                 <td><p>Western Station Interchange A</p></td>
                                                 <td><span>42001</span></td>
                                                 <td>
-                                                    <span class="matched">تم التطابق</span>
+                                                    <span class="status">قيد المراجعة</span>
                                                 </td>
                                                 <td>
                                                     <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
@@ -488,7 +519,7 @@
                                                 <td><p>Western Station Interchange A</p></td>
                                                 <td><span>42001</span></td>
                                                 <td>
-                                                    <span class="done">تم التسليم</span>
+                                                    <span class="status">قيد المراجعة</span>
                                                 </td>
                                                 <td>
                                                     <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
@@ -499,7 +530,7 @@
                                             </tr>
 
                                             <tr>
-                                                <td><span>1</span></td>
+                                                <td><span>5</span></td>
                                                 <td><p>كتب و مستندات</p></td>
                                                 <td>
                                                     <span>2023-03-21</span>
@@ -508,7 +539,67 @@
                                                 <td><p>Western Station Interchange A</p></td>
                                                 <td><span>42001</span></td>
                                                 <td>
-                                                    <span class="new">مفقود جديد</span>
+                                                    <span class="status">قيد المراجعة</span>
+                                                </td>
+                                                <td>
+                                                    <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
+                                                </td>
+                                                <td>
+                                                    <span><img src="./assets/images/upd.svg" class="pointer" alt=""></span>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><span>6</span></td>
+                                                <td><p>كتب و مستندات</p></td>
+                                                <td>
+                                                    <span>2023-03-21</span>
+                                                    <span>01:41 AM</span>
+                                                </td>
+                                                <td><p>Western Station Interchange A</p></td>
+                                                <td><span>42001</span></td>
+                                                <td>
+                                                    <span class="status">قيد المراجعة</span>
+                                                </td>
+                                                <td>
+                                                    <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
+                                                </td>
+                                                <td>
+                                                    <span><img src="./assets/images/upd.svg" class="pointer" alt=""></span>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><span>6</span></td>
+                                                <td><p>كتب و مستندات</p></td>
+                                                <td>
+                                                    <span>2023-03-21</span>
+                                                    <span>01:41 AM</span>
+                                                </td>
+                                                <td><p>Western Station Interchange A</p></td>
+                                                <td><span>42001</span></td>
+                                                <td>
+                                                    <span class="status">قيد المراجعة</span>
+                                                </td>
+                                                <td>
+                                                    <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
+                                                </td>
+                                                <td>
+                                                    <span><img src="./assets/images/upd.svg" class="pointer" alt=""></span>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td><span>6</span></td>
+                                                <td><p>كتب و مستندات</p></td>
+                                                <td>
+                                                    <span>2023-03-21</span>
+                                                    <span>01:41 AM</span>
+                                                </td>
+                                                <td><p>Western Station Interchange A</p></td>
+                                                <td><span>42001</span></td>
+                                                <td>
+                                                    <span class="status">قيد المراجعة</span>
                                                 </td>
                                                 <td>
                                                     <span><img src="./assets/images/remove.svg" class="pointer" alt=""></span>
@@ -524,7 +615,10 @@
                         </div>
 
                         <div class="left-part">
-                            <!-- <div class="info">
+                            <div class="info">
+                                <div class="close-icon pointer">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </div>
                                 <div class="image">
                                     <img src="./assets/images/user.png" alt="">
                                     <div class="caption">
@@ -536,16 +630,12 @@
                                     <img src="./assets/images/moon.svg" alt="">
                                     <img src="./assets/images/EN.svg" alt="">
                                 </div>
-                            </div> -->
-
-                            <div class="close-icon pointer">
-                                <i class="fa-solid fa-xmark"></i>
                             </div>
 
-                            <div class="alerts bg-white">
+                            <div class="alerts bg-white p-3 rounded-4">
                                 <h4>التنبيهات</h4>
                                 <div class="boxs">
-                                    <a href="" class="box ">
+                                    <div class="box d-flex justify-content-between align-items-end">
                                         <div class="image d-flex justify-content-center align-items-start gap-2">
                                             <img src="./assets/images/alarm.svg" alt="">
                                             <div class="text">
@@ -556,9 +646,9 @@
                                         <div class="time">
                                             <span class="fw-bold">منذ 8 دقائق</span>
                                         </div>
-                                    </a>
+                                    </div>
 
-                                     <a href="" class="box ">
+                                    <div class="box d-flex justify-content-between align-items-end">
                                         <div class="image d-flex justify-content-center align-items-start gap-2">
                                             <img src="./assets/images/alarm.svg" alt="">
                                             <div class="text">
@@ -569,9 +659,9 @@
                                         <div class="time">
                                             <span class="fw-bold">منذ 8 دقائق</span>
                                         </div>
-                                    </a>
+                                    </div>
 
-                                     <a href="" class="box ">
+                                    <div class="box d-flex justify-content-between align-items-end">
                                         <div class="image d-flex justify-content-center align-items-start gap-2">
                                             <img src="./assets/images/alarm.svg" alt="">
                                             <div class="text">
@@ -582,56 +672,59 @@
                                         <div class="time">
                                             <span class="fw-bold">منذ 8 دقائق</span>
                                         </div>
-                                    </a>
-                                     <a href="" class="box ">
-                                        <div class="image d-flex justify-content-center align-items-start gap-2">
-                                            <img src="./assets/images/alarm.svg" alt="">
-                                            <div class="text">
-                                                <h5>بلاغ جديد</h5>
-                                                <p>تم تسجيل بلاغ جديد بمحطة Western A</p>
-                                            </div>
-                                        </div>
-                                        <div class="time">
-                                            <span class="fw-bold">منذ 8 دقائق</span>
-                                        </div>
-                                    </a>
-                                     <a href="" class="box ">
-                                        <div class="image d-flex justify-content-center align-items-start gap-2">
-                                            <img src="./assets/images/alarm.svg" alt="">
-                                            <div class="text">
-                                                <h5>بلاغ جديد</h5>
-                                                <p>تم تسجيل بلاغ جديد بمحطة Western A</p>
-                                            </div>
-                                        </div>
-                                        <div class="time">
-                                            <span class="fw-bold">منذ 8 دقائق</span>
-                                        </div>
-                                    </a>
-                                     <a href="" class="box ">
-                                        <div class="image d-flex justify-content-center align-items-start gap-2">
-                                            <img src="./assets/images/alarm.svg" alt="">
-                                            <div class="text">
-                                                <h5>بلاغ جديد</h5>
-                                                <p>تم تسجيل بلاغ جديد بمحطة Western A</p>
-                                            </div>
-                                        </div>
-                                        <div class="time">
-                                            <span class="fw-bold">منذ 8 دقائق</span>
-                                        </div>
-                                    </a>
-                                     <a href="" class="box ">
-                                        <div class="image d-flex justify-content-center align-items-start gap-2">
-                                            <img src="./assets/images/alarm.svg" alt="">
-                                            <div class="text">
-                                                <h5>بلاغ جديد</h5>
-                                                <p>تم تسجيل بلاغ جديد بمحطة Western A</p>
-                                            </div>
-                                        </div>
-                                        <div class="time">
-                                            <span class="fw-bold">منذ 8 دقائق</span>
-                                        </div>
-                                    </a>
+                                    </div>
 
+                                    <div class="box d-flex justify-content-between align-items-end">
+                                        <div class="image d-flex justify-content-center align-items-start gap-2">
+                                            <img src="./assets/images/alarm.svg" alt="">
+                                            <div class="text">
+                                                <h5>بلاغ جديد</h5>
+                                                <p>تم تسجيل بلاغ جديد بمحطة Western A</p>
+                                            </div>
+                                        </div>
+                                        <div class="time">
+                                            <span class="fw-bold">منذ 8 دقائق</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="box d-flex justify-content-between align-items-end">
+                                        <div class="image d-flex justify-content-center align-items-start gap-2">
+                                            <img src="./assets/images/alarm.svg" alt="">
+                                            <div class="text">
+                                                <h5>بلاغ جديد</h5>
+                                                <p>تم تسجيل بلاغ جديد بمحطة Western A</p>
+                                            </div>
+                                        </div>
+                                        <div class="time">
+                                            <span class="fw-bold">منذ 8 دقائق</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="box d-flex justify-content-between align-items-end">
+                                        <div class="image d-flex justify-content-center align-items-start gap-2">
+                                            <img src="./assets/images/alarm.svg" alt="">
+                                            <div class="text">
+                                                <h5>بلاغ جديد</h5>
+                                                <p>تم تسجيل بلاغ جديد بمحطة Western A</p>
+                                            </div>
+                                        </div>
+                                        <div class="time">
+                                            <span class="fw-bold">منذ 8 دقائق</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="box d-flex justify-content-between align-items-end">
+                                        <div class="image d-flex justify-content-center align-items-start gap-2">
+                                            <img src="./assets/images/alarm.svg" alt="">
+                                            <div class="text">
+                                                <h5>بلاغ جديد</h5>
+                                                <p>تم تسجيل بلاغ جديد بمحطة Western A</p>
+                                            </div>
+                                        </div>
+                                        <div class="time">
+                                            <span class="fw-bold">منذ 8 دقائق</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
@@ -641,7 +734,7 @@
                                     <p>14 أكتوبر 2025</p>
                                 </div>
 
-                                <div class="body">
+                                <div class="body d-flex justify-content-between flex-wrap gap-3 pt-2">
 
                                     <div class="item d-flex flex-column justify-content-evenly align-items-center">
                                         <div class="icon d-flex justify-content-evenly align-items-center gap-2">
@@ -705,7 +798,7 @@
             src="https://code.jquery.com/jquery-3.4.1.min.js"
             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
             crossorigin="anonymous">
-        </script> 
+        </script>
         <script
             src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
             integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
