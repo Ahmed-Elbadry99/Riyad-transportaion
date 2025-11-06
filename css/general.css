@@ -1,10 +1,26 @@
 
 /*! الخطوط */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+@font-face {
+  font-family: "font_main";
+  src: url("../fonts/CodecPro-Regular.ttf");
+}
+@font-face {
+  font-family: "font_bold";
+  src: url("../fonts/CodecPro-Bold.ttf");
+}
+@font-face {
+  font-family: "font_extra-bold";
+  src: url("../fonts/CodecPro-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "font_light";
+  src: url("../fonts/CodecPro-Light.ttf");
+}
 
 /*! ألوان الموقع */
 :root {
-    --color-White: #fff;
+    --color-white: #fff;
+    --color-black: #000;
     --dark-red: #FE3232;
 
     --light-red: #FFEDED;
@@ -20,7 +36,6 @@
     --light-purple: #FFEBFF;
 }
 
-
 body {
     font-family: "Montserrat", sans-serif;
     background-color: #F3F3F3;
@@ -34,7 +49,7 @@ body {
 
 a {
     text-decoration: none;
-    color: var(--color-White);
+    color: var(--color-white);
 }
 p {
     margin: 0;
@@ -53,35 +68,6 @@ ul {
 }
 
 
-/* ********************************************************************************************************************************************************* */
-@font-face {
-  font-family: "font_main";
-  src: url("../fonts/CodecPro-Regular.ttf");
-}
-@font-face {
-  font-family: "font_bold";
-  src: url("../fonts/CodecPro-Bold.ttf");
-}
-@font-face {
-  font-family: "font_extra-bold";
-  src: url("../fonts/CodecPro-ExtraBold.ttf");
-}
-@font-face {
-  font-family: "font_light";
-  src: url("../fonts/CodecPro-Light.ttf");
-}
-
-:root {
-  --color-white: #fff;
-  --color-black: #000;
-  --color-primary: #24a19c;
-  --color-secondary: #7FDEDA;
-  --color-text2: #454545;
-  --color-text: #2F2F2F;
-  --color-text3: #3C3C3C;
-  --color-border: #dfe3e8;
-  --color-gray :rgba(0, 0, 0, 0.3);
-}
 li {
   display: block;
 }
@@ -161,10 +147,9 @@ h6 {
 }
 
 p {
-  font-size: 19px;
+  font-size: 14px;
   margin: 0;
   line-height: 1.7;
-  color: var(--color-text);
 }
 a,
 button,
@@ -182,14 +167,12 @@ img,
 }
 
 body {
-  /* background: #fff; */
   font-family: "font_main";
   font-weight: 400;
   padding: 0;
   margin: auto;
   position: relative;
   z-index: 1;
-  color: var(--color-black);
   overflow-x: hidden;
 }
 
@@ -225,8 +208,7 @@ body {
 #app {
   flex: 1 0 auto;
   overflow: hidden;
-
-    padding: 15px;
+  padding: 15px;
 }
 
 .not_found {
@@ -322,7 +304,6 @@ body {
 }
 
 .main_btn1{
-
   width: 170px;
   height: 45px;
   display: flex;
@@ -342,8 +323,7 @@ body {
   border: 1px solid var(--color-primary);
 }
 
-/* mune_respossive */
-
+/*! menu_respossive */
 .menu_responsive {
   position: fixed;
   box-shadow: 0 0 4px #23232359;
@@ -355,7 +335,6 @@ body {
   height: 100%;
   overflow: auto;
   background: var(--color-white);
-
   align-items: center;
   gap: 20px;
   overflow-x: hidden;
@@ -541,12 +520,10 @@ select {
   gap: 10px;
   align-content: center;
 }
-
 .not-found h2 {
   text-align: center;
   width: 100%;
 }
-
 .not-found.active {
   display: block;
 }

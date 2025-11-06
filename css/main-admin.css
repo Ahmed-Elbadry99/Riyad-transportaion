@@ -77,12 +77,12 @@
   justify-content: center;
   align-items: center;
   transition: .3s all ease-in;
-  border: 1px solid transparent;
+  /* border: 1px solid transparent; */
 }
 
-.top-bar .notification:hover {
+/* .top-bar .notification:hover {
   border: 1px solid black;
-}
+} */
 
 
 .top-bar .notification:hover img {
@@ -105,7 +105,6 @@
 }
 
 /* home page */
-
 .app-data {
   padding: 25px;
   width: 100%;
@@ -113,9 +112,8 @@
 
 
 
-
+/* ***************************************************** */
 .statistic-cards {
-
   height: 160px;
   background-color: var(--color-primary);
   color: #fff;
