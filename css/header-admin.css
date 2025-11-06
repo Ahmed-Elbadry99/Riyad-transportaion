@@ -719,6 +719,9 @@ table tbody tr td img:hover {
   flex-wrap: wrap;
   gap: 10px;
 }
+.left-part.responsive .register-today .body {
+  justify-content: space-evenly;
+}
 .left-part .register-today .head {
     display: flex;
     justify-content: space-between;
@@ -772,22 +775,24 @@ table tbody tr td img:hover {
   z-index: 99999999999;
   background-color: #F3F3F3;
   max-width: 400px;
-  /* display: block; */
+  display: block;
   border: 1px solid green;
   border-radius: 10px;
   transition: .5s;
+  padding: 20px 10px;
 }
-.left-part.responsive .info {
-  display: flex;
-  padding-block: 30px 20px;
+.left-part.responsive .alerts {
+  padding: 20px;
+  margin: 20px 0;
+  background-color: var(--color-white);
 }
-.left-part.responsive .info .close-icon {
+.left-part.responsive .close-icon {
   position: absolute;
   top: 10px;
   font-size: 25px;
   transition: .3s;
 }
-.left-part.responsive .info .close-icon:hover {
+.left-part.responsive .close-icon:hover {
   color: var(--light-green);
 }
 

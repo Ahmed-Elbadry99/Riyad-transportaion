@@ -3,7 +3,11 @@
         display: flex;
     }
     .left-part {
-        left: -100%;
+        /* left: -100%; */
+        display: none;
+    }
+    .app-data {
+        width: 100%;
     }
 }
 

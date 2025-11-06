@@ -26,7 +26,7 @@ sidebar.addEventListener('scroll', () => {
 //! Button Notification
 const btnNotification = document.querySelector(".top-content .info .icons button.notification");
 const leftPart = document.querySelector(".left-part");
-const closeIcon = document.querySelector(".left-part .info .close-icon");
+const closeIcon = document.querySelector(".left-part .close-icon");
 console.log(closeIcon);
 
 btnNotification.addEventListener("click",function(){
