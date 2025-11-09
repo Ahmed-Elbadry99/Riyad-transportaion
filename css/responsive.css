@@ -17,10 +17,6 @@
     /* sidebar responsive */
 
 
-    .app-data {
-        padding: 25px;
-
-    }
 
     .main-app.side-bar-minimize .content-app {
         width: calc(100% - 75px);
@@ -49,6 +45,15 @@
 }
 
 @media (max-width: 992px) {
+    .app-data {
+        padding: 0 10px;
+    }
+
+    #app {
+
+        padding: 0;
+    }
+
     .side-bar.active {
         transform: translateX(0);
     }
@@ -56,11 +61,11 @@
     .side-bar {
         position: fixed;
         right: 0;
-        -webkit-transform: translate3d(300px, 0, 0);
-        -moz-transform: translate3d(300px, 0, 0);
-        -o-transform: translate3d(300px, 0, 0);
-        -ms-transform: translate3d(300px, 0, 0);
-        transform: translate3d(300px, 0, 0) !important;
+        -webkit-transform: translate3d(290px, 0, 0);
+        -moz-transform: translate3d(290px, 0, 0);
+        -o-transform: translate3d(290px, 0, 0);
+        -ms-transform: translate3d(290px, 0, 0);
+        transform: translate3d(290px, 0, 0) !important;
         transition: all 0.5s;
         margin-top: 0;
     }
@@ -70,11 +75,11 @@
     }
 
     .nav_open .content-app {
-        -webkit-transform: translate3d(-300px, 0, 0);
-        -moz-transform: translate3d(-300px, 0, 0);
-        -o-transform: translate3d(-300px, 0, 0);
-        -ms-transform: translate3d(-300px, 0, 0);
-        transform: translate3d(-300px, 0, 0) !important;
+        -webkit-transform: translate3d(-280px, 0, 0);
+        -moz-transform: translate3d(-280px, 0, 0);
+        -o-transform: translate3d(-280px, 0, 0);
+        -ms-transform: translate3d(-280px, 0, 0);
+        transform: translate3d(-280px, 0, 0) !important;
     }
 
     .content-app,
@@ -142,15 +147,23 @@
         font-size: 18px;
     }
 
+    /* 
     .table .head {
         flex-direction: column;
+    } */
+
+    .table .head form input {
+        width: 250px;
+    }
+
+    #dropdownBtn {
+        padding: 7px;
+        font-size: 14px;
     }
 
 
     .row-train .images .train {
-    left: 8%
-
-
+        left: 8%
     }
 }
 
@@ -170,11 +183,26 @@
 
     .table .head .left-part-form form {
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 10px;
+        gap: 5px;
     }
+
+
+    .table .head form input {
+        width: 200px;
+    }
+
+    .table .head h3 {
+
+        font-size: 16px;
+    }
+
+    #dropdownBtn {
+        padding: 7px;
+        font-size: 12px;
+    }
+
 }
 
 @media (max-width: 500px) {
@@ -204,6 +232,17 @@
         padding-top: 12px;
     }
 
+
+
+
+    .top-content .title h2 {
+        font-size: 22px;
+    }
+
+    .top-content .info {
+    
+    gap: 10px;
+}
 }
 
 @media (max-width: 425px) {
@@ -221,6 +260,32 @@
 
     .statistic-cards span {
         font-size: 16px;
+    }
+
+
+    .table .head .left-part-form {
+
+
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .table .head .left-part-form form {
+        width: 100%;
+    }
+
+
+    .dropdown,
+    #dropdownBtn {
+        width: 110px;
+    }
+
+
+
+    .table .head form input {
+        flex: 1;
+        width: auto;
     }
 }
 

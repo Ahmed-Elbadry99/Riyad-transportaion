@@ -31,7 +31,7 @@
   border-right: 1px solid var(--color-border);
   /* height: 100vh; */
   height: calc(100vh - 30px);
-  width: 300px;
+  width: 280px;
   border-radius: 0px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.08);
   position: fixed;
@@ -335,8 +335,8 @@
 display: flex;
 justify-content: center;
 gap: 5px;
-  margin-block: 10px;
-}
+  margin-bottom: 10px;
+} 
 
 
 .train-text{
@@ -344,6 +344,8 @@ gap: 5px;
   display: flex;
   flex-direction: column;
   gap: 8px;
+
+  padding: 10px;
 }
 .row-train {
     color: #fff;
@@ -492,9 +494,10 @@ gap: 5px;
 .cards .card {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     border-radius: 10px;
+    overflow: hidden;
 }
 .cards .col-card:nth-child(1) .card {
     background-color: var(--dark-red);
@@ -513,14 +516,20 @@ gap: 5px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 5px;
+}
+
+.cards .card .text h5{
+
+  font-size: 18px;
 }
 .cards .card .text span:last-child {
     font-size: 10px;
 }
-.cards .card .image {
+/* .cards .card .image {
     background-image: url("../assets/images/card-Bg-1.svg");
     background-size: cover;
-}
+} */
 
 /*! Sidebar */
 .lisks-side-bar {
@@ -555,12 +564,13 @@ gap: 5px;
     background-color: var(--color-white);
     border-radius: 20px;
     padding: 10px;
-    margin: 10px;
+    margin-top: 10px;
 }
 .table .head {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .table .head h3 {
   color: #606060;
@@ -809,7 +819,8 @@ table tbody tr td img:hover {
     /* width: 150px;
     height: 100px; */
     padding: 20px 10px;
-    background: linear-gradient(135deg, #8af08500, #b8f3c861);;
+    background: linear-gradient(135deg, #8af08500, #b8f3c861);
+    width: 48%;
 }
 .left-part .register-today .body .item h4 {
   font-size: 20px;
@@ -918,7 +929,7 @@ table tbody tr td img:hover {
   top: 103%;
   right: 0;
   background: #fff;
-  width: 200px;
+  width: 100%;
   border-radius: 14px;
   box-shadow: 0 8px 25px rgba(0,0,0,0.15);
   list-style: none;
