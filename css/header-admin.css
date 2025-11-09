@@ -500,7 +500,7 @@ gap: 5px;
     border-radius: 10px;
     overflow: hidden;
 }
-/* .cards .col-card:nth-child(1) .card {
+.cards .col-card:nth-child(1) .card {
     background-color: var(--dark-red);
 }
 .cards .col-card:nth-child(2) .card {
@@ -511,7 +511,7 @@ gap: 5px;
 }
 .cards .col-card:nth-child(4) .card {
     background-color: #1CB300;
-} */
+}
 .cards .card .text {
     display: flex;
     flex-direction: column;
