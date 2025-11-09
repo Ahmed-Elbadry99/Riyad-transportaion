@@ -1,0 +1,182 @@
+.app-data {
+    width: 100%;
+}
+.content .title {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.content .caption {
+    padding: 30px;
+    width: 650px;
+}
+.content .caption .title h3 {
+    color: var(--color-black);
+    font-weight: 100 !important;
+}
+.content .caption .title span.name {
+    color: var(--color-black);
+    font-weight: 600;
+    color: var(--light-green);
+}
+.content .caption .title p {
+    font-size: 14px;
+}
+.content .title {
+    color: var(--dark-green);
+    display: flex;
+    align-items: center;
+}
+.content .title h2 {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+/*! Cards */
+.cards {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-block: 30px;
+}
+.cards .card {
+    width: 270px;
+    position: relative;
+}
+.cards .card.red {
+    background-color: var(--dark-red);
+}
+.cards .card.purple {
+    background-color: var(--dark-purple);
+}
+.cards .card.orange {
+    background-color: var(--dark-orange);
+}
+.cards .card.green {
+    background-color: #1CB300;
+}
+/* .cards .card.green::before {
+    content: "";
+    background-image: url("../assets/images/card-1.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100%;
+} */
+.cards .card.yellow {
+    background-color: rgba(254, 203, 0, 1);
+}
+.cards .card.blue {
+    background-color: rgba(0, 152, 254, 1);
+}
+.cards .card.gray {
+    background-color: rgba(49, 57, 65, 1);
+}
+.cards .card.gray-2 {
+    background-color: rgba(175, 175, 175, 1);
+}
+
+
+/*! Chart-JS */
+.container-chart {
+    overflow-x: auto;
+}
+.chart-box {
+    background: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.chart-header h3 {
+    color: #444;
+    font-size: 16px;
+    margin: 0;
+}
+
+.chart-box #dropdownBtn {
+    background-color: var(--color-white);
+    color: var(--light-green);
+    border: 1px solid var(--light-green);
+    font-size: 12px;
+    padding: 5px 10px;
+}
+#dropdownBtn:hover {
+    box-shadow: none;
+    background-color: var(--light-green);
+    color: var(--color-white);
+}
+
+
+.chart-box .chart-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.chart-box .chart-buttons button {
+    background-color: #eee;
+    color: #fff;
+    padding: 10px;
+}
+.chart-box .chart-buttons button.active {
+    background-color: var(--light-green);
+}
+.chart-box .chart-buttons button:nth-child(1) {
+    border-radius: 0 5px 5px 0;
+}
+.chart-box .chart-buttons button:nth-child(2) {
+    border-radius: 5px 0 0 5px;
+}
+
+.dropdown-list {
+    width: 150px;
+    padding: 0;
+}
+
+/*! Media Query */
+/* @media (max-width: 2560px){
+    
+} */
+@media (max-width: 930px){
+    .cards {
+        justify-content: center;
+    }
+}
+@media (max-width: 680px){
+    .content .caption {
+        padding: 0;
+        width: 500px;
+    }
+    .chart-box {
+        width: 600px;
+    }
+}
+@media (max-width: 540px){
+    .content .caption {
+        padding: 0;
+        width: 400px;
+    }
+}
+@media (max-width: 470px){
+    .content .caption {
+        padding: 0;
+        width: 300px;
+    }
+    .app-data {
+        padding: 25px 10px;
+    }
+}
+/* @media (max-width: 370px){
+} */
