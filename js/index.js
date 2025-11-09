@@ -15,14 +15,6 @@ sidebar.addEventListener('scroll', () => {
 });
 
 
-
-
-
-
-
-
-
-
 //! Button Notification
 const btnNotification = document.querySelector(".top-content .info .icons button.notification");
 const leftPart = document.querySelector(".left-part");
@@ -35,18 +27,6 @@ btnNotification.addEventListener("click",function(){
 closeIcon.addEventListener("click",function(){
     leftPart.classList.remove("responsive");
 });
-
-
-
-
-
-
-
-
-
-
-
-
 
 //! Dropdown Btn
 const dropdown = document.querySelector(".dropdown");
@@ -62,4 +42,12 @@ window.addEventListener("click", (e) => {
         dropdown.classList.remove("active");
     }
 });
+
+
+
+
+
+
+
+
 
