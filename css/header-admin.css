@@ -359,11 +359,12 @@ gap: 5px;
 
 .row-train .images {
     position: relative;
-    width: 900px;
+    width: 104%;
     display: block;
     height: 100%;
     display: flex;
     justify-content: end;
+    align-items: end;
 }
 
 .row-train .train button {
