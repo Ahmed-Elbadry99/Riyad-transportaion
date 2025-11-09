@@ -258,6 +258,7 @@
 }
 .top-content .info .image .caption h5 {
   font-size: 16px;
+  font-weight: 600;
 }
 .top-content .info .image .caption p {
   font-size: 10px;
@@ -499,7 +500,7 @@ gap: 5px;
     border-radius: 10px;
     overflow: hidden;
 }
-.cards .col-card:nth-child(1) .card {
+/* .cards .col-card:nth-child(1) .card {
     background-color: var(--dark-red);
 }
 .cards .col-card:nth-child(2) .card {
@@ -510,7 +511,7 @@ gap: 5px;
 }
 .cards .col-card:nth-child(4) .card {
     background-color: #1CB300;
-}
+} */
 .cards .card .text {
     display: flex;
     flex-direction: column;
@@ -927,7 +928,7 @@ table tbody tr td img:hover {
 .dropdown-list {
   position: absolute;
   top: 103%;
-  right: 0;
+  left: 0;
   background: #fff;
   width: 100%;
   border-radius: 14px;
