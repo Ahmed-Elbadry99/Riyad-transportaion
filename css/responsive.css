@@ -315,11 +315,27 @@
     }
 
 
-    .dropdown,
-    #dropdownBtn {
-        width: 110px;
+    .table .head .left-part-form form{
+
+        padding: 5px 0;
     }
 
+    .dropdown
+{
+        width: 32%;
+    }
+
+
+     #dropdownBtn{
+        width: 100%;
+                padding: 10px 5px;
+
+     }
+
+
+     .dropdown-list{
+        width: fit-content;
+     }
 
 
     .table .head form input {
