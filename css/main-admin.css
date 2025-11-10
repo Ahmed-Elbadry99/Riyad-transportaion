@@ -17,7 +17,7 @@
   width: calc(100% - 290px);
   display: flex;
   height: 100%;
-  padding-top: 10px;
+  padding: 10px;
   position: relative;
   height: 100vh;
   z-index: 1;
@@ -32,9 +32,7 @@
   display: none;
 }
 
-.left-part::-webkit-scrollbar {
-  display: none;
-}
+
 
 .top-bar {
   width: 100%;
@@ -126,6 +124,10 @@
   width: 75%;
 }
 
+
+.index-page .app-data{
+    height:135%
+}
 
 
 /* ***************************************************** */
