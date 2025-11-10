@@ -244,39 +244,69 @@
   border-radius: 10px;
 }
 
+.left-part .info,
+.page-title-container .info,
 .top-content .info {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 30px;
 }
+
+
+.left-part .info .image,
+.page-title-container .info  .image, 
 .top-content .info .image {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
+
+.left-part .info .caption h5,
+.page-title-container .info .caption h5,
 .top-content .info .image .caption h5 {
   font-size: 16px;
   font-weight: 600;
 }
+
+.left-part .info .image .caption p,
+.page-title-container .info .image .caption p,
 .top-content .info .image .caption p {
   font-size: 10px;
 }
+
+
+.page-title-container .info .icons,
 .top-content .info .icons {
     display: flex;
     gap: 5px;
 }
+
+
+.page-title-container .info .icons button.notification ,
 .top-content .info .icons button.notification {
   display: none;
 }
+
+
+
+.page-title-container .info .icons img,
 .top-content .info .icons img {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     background-color: var(--light-green);
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
 }
+
+
+ 
+.index-page .page-title-container .info{
+
+  display: none;
+}
+
 .top-content {
     display: flex;
     justify-content: space-between;
@@ -289,9 +319,27 @@
   justify-content: space-between;
   align-items: center;
 }
-.top-content .title h2 {
+
+
+.page-title-container{
+
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.page-title{
+  display: flex;
+  justify-content: center;
+}
+.page-title h2 {
+    color: var(--dark-green);
+
   font-size: 25px;
   font-weight: 700;
+  align-content: center;
 }
 
 /*! ************************ Section Train ************************ */
@@ -346,7 +394,7 @@ gap: 5px;
   flex-direction: column;
   gap: 8px;
 
-  padding: 10px;
+  padding: 10px 10px 15px 10px;
 }
 .row-train {
     color: #fff;
@@ -705,9 +753,15 @@ table tbody tr td img:hover {
 /*! ************************ Left-Part ************************ */
 .left-part {
     /* padding: 20px; */
-    overflow-y: auto;
-    height: 100%;
-    flex: 1;
+   
+    width: 25%;
+    height: calc(100vh - 40px);
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0px;
+    left: 0;
+    margin-left: 10px;
 }
 .left-part .image img {
     width: 40px;
@@ -718,7 +772,8 @@ table tbody tr td img:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    display: none;
+    
+  height: 70px;
 }
 .left-part .info .image {
     display: flex;
@@ -853,19 +908,24 @@ table tbody tr td img:hover {
   top: 0;
   z-index: 99999999999;
   background-color: #F3F3F3;
-  max-width: 400px;
+  width: 330px;
   display: block;
   border: 1px solid green;
   border-radius: 10px;
   transition: .5s;
   padding: 20px 10px;
+  overflow-y: auto;
+  margin: 0;
+  height: 100vh;
 }
 
 
 .left-part .alerts{
 
       padding: 10px;
-      border-radius: 20px
+      border-radius: 20px;
+      overflow-y: auto;
+      flex: 1;
 }
 .left-part.responsive .alerts {
   padding: 20px;
@@ -900,6 +960,10 @@ table tbody tr td img:hover {
 
 
 
+
+.left-part::-webkit-scrollbar {
+  display: none;
+}
 
 
 

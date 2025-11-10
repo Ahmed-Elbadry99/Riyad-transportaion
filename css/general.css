@@ -211,6 +211,7 @@ body {
   flex: 1 0 auto;
   overflow: hidden;
   padding: 15px;
+  height: 100vh;
 }
 
 .not_found {
