@@ -1,4 +1,13 @@
 /*! ************************ Aside ************************ */
+
+
+.sub-title-text{
+
+    color: #606060;
+    font-size: 16px;
+    font-weight: 600;
+}
+
 aside {
     background-color: var(--dark-green);
     width: 250px;

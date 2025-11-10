@@ -85,7 +85,8 @@
         transition: all 0.5s;
         margin-top: 0;
         height: calc(100vh - 10px);
-        top: 5px;
+        top: 0px;
+        border-radius: 0px ;
     }
 
     .nav_open .side-bar {
@@ -117,6 +118,7 @@
         padding: 15px 20px;
         display: flex;
     }
+
 
     .content-app.bar-open {
         padding-top: 200px;
@@ -164,6 +166,15 @@
     .login-form {
         width: 80%;
     }
+
+     .side-bar-container {
+    padding: 0;
+  }
+
+
+  .side-bar {
+    height: 100vh;
+  }
 }
 
 @media (max-width: 768px) {
