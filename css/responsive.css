@@ -11,6 +11,7 @@
     }
        .left-part {
         left: -100%;
+        position: fixed;
     }
 
 
@@ -103,8 +104,10 @@
 
     .content-app{
 
+            padding: 0;
             padding-top: 100px;
     }
+
 
     .top-bar{
         height: 90px;
@@ -150,6 +153,7 @@
 
     .nav-toggle.minimize {
         display: flex;
+        left: 0;
     }
 
     /* login */
