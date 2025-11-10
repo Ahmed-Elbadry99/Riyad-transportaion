@@ -1,4 +1,5 @@
 @media (max-width: 1300px) {
+
     .page-title-container .info .icons button.notification,
     .top-content .info .icons button.notification {
         display: flex;
@@ -9,16 +10,17 @@
         /* left: -100%; */
         display: none;
     }
-       .left-part {
+
+    .left-part {
         left: -100%;
         position: fixed;
     }
 
 
-.index-page .page-title-container .info{
+    .index-page .page-title-container .info {
 
-  display: flex;
-}
+        display: flex;
+    }
 
 
     .app-data {
@@ -39,7 +41,8 @@
     .main-app.side-bar-minimize .side-bar .logo {
         display: none;
     }
-    .main-app.side-bar-minimize .side-bar-container, 
+
+    .main-app.side-bar-minimize .side-bar-container,
     .main-app.side-bar-minimize .side-bar {
         width: 75px;
         padding: 20px 10px;
@@ -102,18 +105,19 @@
         width: 100%;
     }
 
-    .content-app{
+    .content-app {
 
-            padding: 0;
-            padding-top: 100px;
+        padding: 0;
+        padding-top: 100px;
     }
 
 
-    .top-bar{
+    .top-bar {
         height: 90px;
         padding: 15px 20px;
         display: flex;
     }
+
     .content-app.bar-open {
         padding-top: 200px;
     }
@@ -268,19 +272,19 @@
     }
 
     .top-content .info {
-    
-    gap: 10px;
-}
 
-.page-title-container{
+        gap: 10px;
+    }
 
-    margin-bottom: 20px;
-}
+    .page-title-container {
+
+        margin-bottom: 20px;
+    }
 
 
-.page-title-container .info{
-    width: 100%;
-}
+    .page-title-container .info {
+        width: 100%;
+    }
 
 }
 
@@ -315,33 +319,35 @@
     }
 
 
-    .table .head .left-part-form form{
+    .table .head .left-part-form form {
 
         padding: 5px 0;
     }
 
-    .dropdown
-{
-        width: 32%;
-    }
-
-
-     #dropdownBtn{
-        width: 100%;
-                padding: 10px 5px;
-
-     }
-
-
-     .dropdown-list{
-        width: fit-content;
-     }
-
 
     .table .head form input {
-        flex: 1;
-        width: auto;
+        width: 70%;
     }
+
+    .dropdown {
+        width: 30%;
+    }
+
+
+
+
+    #dropdownBtn {
+        width: 100%;
+        padding: 10px 5px;
+
+    }
+
+
+    .dropdown-list {
+        width: fit-content;
+    }
+
+
 }
 
 @media (max-width: 375px) {
