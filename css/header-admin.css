@@ -91,7 +91,7 @@
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.08);
   position: relative;
   transition: all 0.3s linear;
-  padding-top: 30px;
+  padding-top: 15px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -101,8 +101,9 @@
 .bar-header {
   height: 100px;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
+  padding-right: 8px;
 }
 
 
@@ -111,8 +112,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px;
+  height: 60px;
 }
+
 
 .logo a img {
   transition: none;
@@ -120,6 +122,10 @@
   height: auto;
 }
 
+.bar-header .logo a img{
+ width: 100%;
+ height: 100%;
+}
 
 .lisks-side-bar {
   display: flex;
@@ -127,7 +133,7 @@
   /* margin: 45px 0 0 0; */
   height: 100%;
   overflow: auto;
-  padding: 10px 0;
+  /* padding: 10px 0; */
 }
 
 .lisks-side-bar ul {
@@ -269,7 +275,7 @@
 }
 
 .sidebar-bottom {
-  height: 30%;
+  height: 20%;
 }
 
 .sidebar-bottom .image {
@@ -302,7 +308,7 @@
   transition: .5s;
 }
 
-.lisks-side-bar ul li:not(:first-child) {
+.lisks-side-bar ul li {
   opacity: .5;
 }
 
@@ -313,6 +319,11 @@
 .lisks-side-bar ul li.active {
   background-color: var(--light-green);
   border-radius: 10px;
+  opacity: 1;
+}
+.lisks-side-bar ul li.minimize-logo{
+  opacity: 1;
+  display: none;
 }
 
 .left-part .info,
@@ -589,7 +600,7 @@
   background: radial-gradient(circle, #fff7b1 0%, #ffeb3b 40%, transparent 70%);
   border-radius: 50%;
   opacity: 0;
-  animation: glowPulse 1.5s ease-in-out infinite;
+  /* animation: glowPulse 1.5s ease-in-out infinite; */
 }
 
 @keyframes glowPulse {
@@ -853,10 +864,10 @@ table tbody tr td img {
 table tbody tr td {
   color: #606060;
 }
-
+/* 
 table tbody tr td img:hover {
   transform: rotate(360deg);
-}
+} */
 
 .left-part-form form {
   display: flex;
@@ -882,7 +893,7 @@ table tbody tr td img:hover {
 .left-part .image img {
   width: 40px;
   height: 40px;
-  border-radius: 50%;
+  border-radius: 8px;
 }
 
 .left-part .info {
@@ -911,7 +922,7 @@ table tbody tr td img:hover {
 .left-part .alerts .boxs {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 10px;
 }
 
 .left-part .alerts .box:not(:last-child) {
@@ -935,17 +946,27 @@ table tbody tr td img:hover {
 
   background-color: #ebebebd6;
 }
-
 .left-part .alerts .box .image img {
-  width: 30px;
-  height: 30px;
-  background-color: #FFEDED;
-  padding: 5px;
-  border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #FFEDE6;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.left-part .alerts .box.worning .image img{
+    background-color: #FFEDED;
+}
+
+.left-part .alerts .box.success .image img{
+    background-color: #C7FFC5;
 }
 
 .left-part .alerts .box .image .text h5 {
   font-size: 14px;
+  color: #7F7F7F;
+  font-weight: 600;
 }
 
 .left-part .alerts .box .image .text p {

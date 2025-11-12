@@ -117,7 +117,7 @@ h5 {
     transform: rotate(150deg);
     /* animation: bgMoveUp 20s linear infinite; */
 }
-.cards .card:hover .image::after {
+.cards .card.green:hover .image::after {
     animation: bgMoveUp 20s linear infinite;
 }
 .cards .card.purple .image::after {
@@ -135,6 +135,9 @@ h5 {
     transform: rotate(150deg);
     /* animation: bgMoveDown 20s linear infinite; */
 }
+.cards .card.purple:hover .image::after {
+    animation: bgMoveDown 20s linear infinite;
+}
 .cards .card.red .image::after {
     content: "";
     position: absolute;
@@ -149,6 +152,9 @@ h5 {
     z-index: 99999;
     transform: rotate(150deg);
     /* animation: bgMoveUp 20s linear infinite; */
+}
+.cards .card.red:hover .image::after {
+    animation: bgMoveUp 20s linear infinite;
 }
 .cards .card.orange .image::after {
     content: "";
@@ -165,6 +171,9 @@ h5 {
     transform: rotate(150deg);
     /* animation: bgMoveDown 20s linear infinite; */
 }
+.cards .card.orange:hover .image::after {
+    animation: bgMoveDown 20s linear infinite;
+}
 .cards .card.yellow .image::after {
     content: "";
     position: absolute;
@@ -179,6 +188,9 @@ h5 {
     z-index: 99999;
     transform: rotate(150deg);
     /* animation: bgMoveUp 20s linear infinite; */
+}
+.cards .card.yellow:hover .image::after {
+    animation: bgMoveUp 20s linear infinite;
 }
 .cards .card.blue .image::after {
     content: "";
@@ -195,6 +207,9 @@ h5 {
     transform: rotate(150deg);
     /* animation: bgMoveDown 20s linear infinite; */
 }
+.cards .card.blue:hover .image::after {
+    animation: bgMoveDown 20s linear infinite;
+}
 .cards .card.gray .image::after {
     content: "";
     position: absolute;
@@ -210,6 +225,9 @@ h5 {
     transform: rotate(150deg);
     /* animation: bgMoveUp 20s linear infinite; */
 }
+.cards .card.gray:hover .image::after {
+    animation: bgMoveUp 20s linear infinite;
+}
 .cards .card.gray-2 .image::after {
     content: "";
     position: absolute;
@@ -224,6 +242,9 @@ h5 {
     z-index: 99999;
     transform: rotate(150deg);
     /* animation: bgMoveDown 20s linear infinite; */
+}
+.cards .card.gray-2:hover .image::after {
+    animation: bgMoveDown 20s linear infinite;
 }
 
 @keyframes bgMoveUp {

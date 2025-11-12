@@ -1,12 +1,6 @@
 /*! ************************ Aside ************************ */
 
 
-.sub-title-text{
-
-    color: #606060;
-    font-size: 16px;
-    font-weight: 600;
-}
 
 aside {
     background-color: var(--dark-green);
@@ -373,10 +367,21 @@ table tbody tr td img:hover {
 .left-part .alerts .box .image img {
     width: 30px;
     height: 30px;
-    background-color: #FFEDED;
+    background-color: #FFEDE6;
     padding: 5px;
     border-radius: 5px;
 }
+
+
+.left-part .alerts .box.worning .image img{
+    background-color: #FFEDED;
+}
+
+.left-part .alerts .box.success .image img{
+    background-color: #C7FFC5;
+}
+
+
 .left-part .alerts .box .image .text p {
     font-size: 14px;
 }

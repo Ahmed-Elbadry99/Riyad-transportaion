@@ -41,7 +41,12 @@
     .main-app.side-bar-minimize .side-bar {
         width: 75px;
         padding: 20px 10px;
-        gap: 50px;
+        gap: 20px;
+    }
+
+    .main-app.side-bar-minimize .side-bar .minimize-logo {
+
+        display: block;
     }
 
     .main-app.side-bar-minimize .lisks-side-bar ul li {
@@ -52,6 +57,16 @@
     .main-app.side-bar-minimize .lisks-side-bar ul li a {
         justify-content: center;
         padding: 10px;
+    }
+
+
+    .main-app.side-bar-minimize .side-bar .bar-header {
+
+        height: 50px;
+    }
+
+    .main-app.side-bar-minimize .side-bar .sidebar-bottom {
+        height: fit-content;
     }
 }
 
@@ -86,7 +101,7 @@
         margin-top: 0;
         height: calc(100vh - 10px);
         top: 0px;
-        border-radius: 0px ;
+        border-radius: 0px;
     }
 
     .nav_open .side-bar {
@@ -167,14 +182,14 @@
         width: 80%;
     }
 
-     .side-bar-container {
-    padding: 0;
-  }
+    .side-bar-container {
+        padding: 0;
+    }
 
 
-  .side-bar {
-    height: 100vh;
-  }
+    .side-bar {
+        height: 100vh;
+    }
 }
 
 @media (max-width: 768px) {
