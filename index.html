@@ -70,6 +70,9 @@
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/header-admin.css" />
     <link rel="stylesheet" href="./css/main-admin.css" />
+
+    <link rel="stylesheet" href="./css/main copy.css" />
+
     <link rel="stylesheet" href="./css/responsive.css" />
     <link rel="stylesheet" href="css/ar.css" />
   </head>
@@ -217,7 +220,10 @@
                   <div class="icons">
                     <img src="./assets/images/EN.svg" alt="" />
 
-                    <button class="notification  sub-title-text" title="التنبيهات">
+                    <button
+                      class="notification sub-title-text"
+                      title="التنبيهات"
+                    >
                       <img src="./assets/images/notification.svg" alt="" />
                     </button>
                   </div>
@@ -239,71 +245,85 @@
 
                   <div class="col-lg-5 col-md-12">
                     <div class="images">
-                      <!-- <div class="tow-container">
-                                                <img src="./assets/images/Tow-bars.svg" class="tow-bars" alt="">
-                                                <img src="./assets/images/Towing station.svg" class="towing-station" alt="">
-                                            </div> -->
-                      <img
-                        src="./assets/images/train.svg"
-                        class="the-train"
-                        alt=""
-                      />
-                      <!-- <div class="light"></div> -->
+                      <div class="container-train">
+                        <div class="img-train">
+                          <img
+                            src="./assets/images/train.svg"
+                            class="the-train"
+                            alt=""
+                          />
+                          <!-- محطة القطر -->
+                          <img
+                            src="./assets/images/Towing station.svg"
+                            class="towing-station"
+                            alt=""
+                          />
+                          <img
+                            src="./assets/images/Welcome.svg"
+                            class="towing-station img-welcome"
+                            alt=""
+                          />
+                          <div
+                            style="
+                              background: url(./assets/images/Tow-bars.svg);
+                              background-size: contain;
+                            "
+                            ;
+                            class="tow-bars"
+                            alt=""
+                          >
+                            <!-- القضبان -->
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
+              <!--? ********************* End-Train ********************* -->
 
               <div class="row cards g-2">
-                <div class="col-card col-sm-6 col-md-6 col-lg-3">
-                  <div class="card text-white">
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                  <div class="card green">
                     <div class="text">
-                      <h5>بلاغات اليوم</h5>
+                      <h5>اجمالي المفقودات</h5>
                       <span class="fw-bold fs-3">860</span>
-                      <span>تم تسجيلها</span>
+                      <span>مفقود</span>
                     </div>
-                    <div class="image">
-                      <img src="./assets/images/card-1.svg" alt="" />
-                    </div>
+                    <div class="image"></div>
                   </div>
                 </div>
 
-                <div class="col-card col-sm-6 col-md-6 col-lg-3">
-                  <div class="card text-white">
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                  <div class="card purple">
                     <div class="text">
-                      <h5>قيد المراجعة</h5>
+                      <h5>اجمالي التسليمات</h5>
                       <span class="fw-bold fs-3">860</span>
-                      <span>في انتظار التطابق</span>
+                      <span>مفقود مستلم</span>
                     </div>
-                    <div class="image">
-                      <img src="./assets/images/card-2.svg" alt="" />
-                    </div>
+                    <div class="image"></div>
                   </div>
                 </div>
 
-                <div class="col-card col-sm-6 col-md-6 col-lg-3">
-                  <div class="card text-white">
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                  <div class="card red">
                     <div class="text">
-                      <h5>قيد الاستلام</h5>
+                      <h5>اجمالي التلفات</h5>
                       <span class="fw-bold fs-3">860</span>
-                      <span>بانتظار الاستلام</span>
+                      <span>تم اتلافه</span>
                     </div>
-                    <div class="image">
-                      <img src="./assets/images/card-3.svg" alt="" />
-                    </div>
+                    <div class="image"></div>
                   </div>
                 </div>
 
-                <div class="col-card col-sm-6 col-md-6 col-lg-3">
-                  <div class="card text-white">
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                  <div class="card orange">
                     <div class="text">
-                      <h5>بلاغ مكتمل</h5>
+                      <h5>اجمالي الموظفين</h5>
                       <span class="fw-bold fs-3">860</span>
-                      <span>تم التسليم</span>
+                      <span>موظف</span>
                     </div>
-                    <div class="image">
-                      <img src="./assets/images/Mask group.svg" alt="" />
-                    </div>
+                    <div class="image"></div>
                   </div>
                 </div>
               </div>

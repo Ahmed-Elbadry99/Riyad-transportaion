@@ -1,23 +1,21 @@
-<svg width="81" height="120" viewBox="0 0 81 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_29_516)" filter="url(#filter0_n_29_516)">
-<rect width="18.6911" height="150.526" transform="matrix(-0.906308 0.422618 0.422618 0.906308 16.9399 -8.92993)" fill="#FEB48C"/>
-<rect width="18.6911" height="9.34556" transform="matrix(-0.906308 0.422618 0.422618 0.906308 16.9399 -8.92993)" fill="#1F0C00"/>
-<rect x="43.4319" y="47.8828" width="18.6911" height="9.34556" transform="rotate(155 43.4319 47.8828)" fill="#1F0C00"/>
-<rect x="51.3313" y="64.8226" width="18.6911" height="9.34556" transform="rotate(155 51.3313 64.8226)" fill="#482401"/>
-<rect width="13.2283" height="13.2283" transform="matrix(-0.939693 -0.34202 -0.34202 0.939693 20.8895 -0.459839)" fill="#FFD7C6"/>
-<rect x="39.4822" y="39.4125" width="13.2283" height="13.2283" transform="rotate(110 39.4822 39.4125)" fill="#1F0C00"/>
-<rect width="18.6911" height="9.34556" transform="matrix(-0.906308 0.422618 0.422618 0.906308 43.4319 47.8828)" fill="#1F0C00"/>
-<rect width="13.2283" height="13.2283" transform="matrix(-0.939693 -0.34202 -0.34202 0.939693 47.3816 56.3525)" fill="#FFD7C6"/>
-<rect x="76.6085" y="119.031" width="18.6911" height="9.34556" transform="rotate(155 76.6085 119.031)" fill="#1F0C00"/>
-<rect x="72.6588" y="110.56" width="13.2283" height="13.2283" transform="rotate(110 72.6588 110.56)" fill="#1F0C00"/>
-<rect width="18.6911" height="9.34556" transform="matrix(-0.906308 0.422618 0.422618 0.906308 76.6085 119.031)" fill="#1F0C00"/>
-<rect width="13.2283" height="13.2283" transform="matrix(-0.939693 -0.34202 -0.34202 0.939693 42.861 68.7722)" fill="#482401"/>
-<rect width="13.2283" height="13.2283" transform="matrix(-0.939693 -0.34202 -0.34202 0.939693 59.8012 60.8729)" fill="#482401"/>
-<rect width="13.2283" height="13.2283" transform="matrix(-0.939693 -0.34202 -0.34202 0.939693 60.2392 106.04)" fill="#482401"/>
-<rect width="13.2283" height="13.2283" transform="matrix(-0.939693 -0.34202 -0.34202 0.939693 77.1794 98.1409)" fill="#482401"/>
+<svg width="19" height="120" viewBox="0 0 19 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_285_7984)" filter="url(#filter0_n_285_7984)">
+<rect width="18.6911" height="150.526" transform="matrix(1 0 0 -1 0 138.494)" fill="#FEB48C"/>
+<rect x="0.000255585" y="75.8082" width="18.6911" height="9.34556" fill="#1F0C00"/>
+<rect x="1.14441e-05" y="57.1171" width="18.6911" height="9.34556" fill="#482401"/>
+<rect width="13.2283" height="13.2283" transform="matrix(0.707107 0.707107 0.707107 -0.707107 0.000106812 129.148)" fill="#FFD7C6"/>
+<rect x="0.000198364" y="85.1541" width="13.2283" height="13.2283" transform="rotate(-45 0.000198364 85.1541)" fill="#1F0C00"/>
+<rect width="18.6911" height="9.34556" transform="matrix(1 0 0 -1 0.000255585 75.8082)" fill="#1F0C00"/>
+<rect width="13.2283" height="13.2283" transform="matrix(0.707107 0.707107 0.707107 -0.707107 4.57764e-05 66.4628)" fill="#FFD7C6"/>
+<rect x="0.000282288" y="-2.69452" width="18.6911" height="9.34556" fill="#1F0C00"/>
+<rect x="0.000312805" y="6.65121" width="13.2283" height="13.2283" transform="rotate(-45 0.000312805 6.65121)" fill="#1F0C00"/>
+<rect width="13.2283" height="13.2283" transform="matrix(0.707107 0.707107 0.707107 -0.707107 9.34587 57.1173)" fill="#482401"/>
+<rect width="13.2283" height="13.2283" transform="matrix(0.707107 0.707107 0.707107 -0.707107 -9.34555 57.1172)" fill="#482401"/>
+<rect width="13.2283" height="13.2283" transform="matrix(0.707107 0.707107 0.707107 -0.707107 9.34599 15.9966)" fill="#482401"/>
+<rect width="13.2283" height="13.2283" transform="matrix(0.707107 0.707107 0.707107 -0.707107 -9.34542 15.9965)" fill="#482401"/>
 </g>
 <defs>
-<filter id="filter0_n_29_516" x="3.20094e-06" y="-8.92993" width="80.5549" height="144.322" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_n_285_7984" x="0" y="-12.0319" width="18.6911" height="150.526" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feTurbulence type="fractalNoise" baseFrequency="16.050397872924805 16.050397872924805" stitchTiles="stitch" numOctaves="3" result="noise" seed="4177" />
@@ -28,13 +26,13 @@
 <feComposite operator="in" in2="shape" in="coloredNoise1" result="noise1Clipped" />
 <feFlood flood-color="rgba(25, 48, 25, 0.25)" result="color1Flood" />
 <feComposite operator="in" in2="noise1Clipped" in="color1Flood" result="color1" />
-<feMerge result="effect1_noise_29_516">
+<feMerge result="effect1_noise_285_7984">
 <feMergeNode in="shape" />
 <feMergeNode in="color1" />
 </feMerge>
 </filter>
-<clipPath id="clip0_29_516">
-<rect width="18.6911" height="150.526" fill="white" transform="matrix(-0.906308 0.422618 0.422618 0.906308 16.9399 -8.92993)"/>
+<clipPath id="clip0_285_7984">
+<rect width="18.6911" height="150.526" fill="white" transform="matrix(1 0 0 -1 0 138.494)"/>
 </clipPath>
 </defs>
 </svg>

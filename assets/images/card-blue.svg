@@ -1,23 +1,21 @@
-<svg width="78" height="120" viewBox="0 0 78 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="19" height="120" viewBox="0 0 19 120" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_285_8207)" filter="url(#filter0_n_285_8207)">
-<rect width="18.6911" height="150.526" transform="matrix(-0.906308 0.422618 0.422618 0.906308 13.8687 -8.92993)" fill="#9FC4FF"/>
-<rect width="18.6911" height="9.34556" transform="matrix(-0.906308 0.422618 0.422618 0.906308 13.8687 -8.92993)" fill="#001225"/>
-<rect x="40.3606" y="47.8828" width="18.6911" height="9.34556" transform="rotate(155 40.3606 47.8828)" fill="#001225"/>
-<rect x="48.26" y="64.8226" width="18.6911" height="9.34556" transform="rotate(155 48.26 64.8226)" fill="#002F54"/>
-<rect width="13.2283" height="13.2283" transform="matrix(-0.939693 -0.34202 -0.34202 0.939693 17.8182 -0.459839)" fill="#CEDFFF"/>
-<rect x="36.4109" y="39.4125" width="13.2283" height="13.2283" transform="rotate(110 36.4109 39.4125)" fill="#001225"/>
-<rect width="18.6911" height="9.34556" transform="matrix(-0.906308 0.422618 0.422618 0.906308 40.3606 47.8828)" fill="#001225"/>
-<rect width="13.2283" height="13.2283" transform="matrix(-0.939693 -0.34202 -0.34202 0.939693 44.3103 56.3525)" fill="#CEDFFF"/>
-<rect x="73.5372" y="119.03" width="18.6911" height="9.34556" transform="rotate(155 73.5372 119.03)" fill="#001225"/>
-<rect x="69.5875" y="110.56" width="13.2283" height="13.2283" transform="rotate(110 69.5875 110.56)" fill="#001225"/>
-<rect width="18.6911" height="9.34556" transform="matrix(-0.906308 0.422618 0.422618 0.906308 73.5372 119.03)" fill="#001225"/>
-<rect width="13.2283" height="13.2283" transform="matrix(-0.939693 -0.34202 -0.34202 0.939693 39.7897 68.7721)" fill="#002F54"/>
-<rect width="13.2283" height="13.2283" transform="matrix(-0.939693 -0.34202 -0.34202 0.939693 56.7299 60.8729)" fill="#002F54"/>
-<rect width="13.2283" height="13.2283" transform="matrix(-0.939693 -0.34202 -0.34202 0.939693 57.1679 106.04)" fill="#002F54"/>
-<rect width="13.2283" height="13.2283" transform="matrix(-0.939693 -0.34202 -0.34202 0.939693 74.1082 98.141)" fill="#002F54"/>
+<rect width="18.6911" height="150.526" transform="matrix(1 0 0 -1 0 138.494)" fill="#9FC4FF"/>
+<rect x="0.000244141" y="75.8082" width="18.6911" height="9.34556" fill="#001225"/>
+<rect y="57.1171" width="18.6911" height="9.34556" fill="#002F54"/>
+<rect width="13.2283" height="13.2283" transform="matrix(0.707107 0.707107 0.707107 -0.707107 0.00012207 129.148)" fill="#CEDFFF"/>
+<rect x="0.000183105" y="85.1541" width="13.2283" height="13.2283" transform="rotate(-45 0.000183105 85.1541)" fill="#001225"/>
+<rect width="18.6911" height="9.34556" transform="matrix(1 0 0 -1 0.000244141 75.8082)" fill="#001225"/>
+<rect width="13.2283" height="13.2283" transform="matrix(0.707107 0.707107 0.707107 -0.707107 6.10352e-05 66.4628)" fill="#CEDFFF"/>
+<rect x="0.000305176" y="-2.69452" width="18.6911" height="9.34556" fill="#001225"/>
+<rect x="0.000305176" y="6.65121" width="13.2283" height="13.2283" transform="rotate(-45 0.000305176 6.65121)" fill="#001225"/>
+<rect width="13.2283" height="13.2283" transform="matrix(0.707107 0.707107 0.707107 -0.707107 9.34589 57.1173)" fill="#002F54"/>
+<rect width="13.2283" height="13.2283" transform="matrix(0.707107 0.707107 0.707107 -0.707107 -9.34552 57.1172)" fill="#002F54"/>
+<rect width="13.2283" height="13.2283" transform="matrix(0.707107 0.707107 0.707107 -0.707107 9.34601 15.9966)" fill="#002F54"/>
+<rect width="13.2283" height="13.2283" transform="matrix(0.707107 0.707107 0.707107 -0.707107 -9.3454 15.9965)" fill="#002F54"/>
 </g>
 <defs>
-<filter id="filter0_n_285_8207" x="-3.07129" y="-8.92993" width="80.5549" height="144.322" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_n_285_8207" x="0" y="-12.0319" width="18.6911" height="150.526" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feTurbulence type="fractalNoise" baseFrequency="16.050397872924805 16.050397872924805" stitchTiles="stitch" numOctaves="3" result="noise" seed="4177" />
@@ -34,7 +32,7 @@
 </feMerge>
 </filter>
 <clipPath id="clip0_285_8207">
-<rect width="18.6911" height="150.526" fill="white" transform="matrix(-0.906308 0.422618 0.422618 0.906308 13.8687 -8.92993)"/>
+<rect width="18.6911" height="150.526" fill="white" transform="matrix(1 0 0 -1 0 138.494)"/>
 </clipPath>
 </defs>
 </svg>

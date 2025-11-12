@@ -1,10 +1,8 @@
-@media (max-width: 1300px) {
-
+@media (max-width: 1500px) {
     .page-title-container .info .icons button.notification,
     .top-content .info .icons button.notification {
         display: flex;
     }
-
 
     .left-part .info {
         /* left: -100%; */
@@ -30,9 +28,6 @@
 
 @media (min-width: 992px) {
     /* sidebar responsive */
-
-
-
     .main-app.side-bar-minimize .content-app {
         width: calc(100% - 75px);
     }
@@ -61,12 +56,17 @@
 }
 
 @media (max-width: 992px) {
+    /* ********************************* */
     .app-data {
-        padding: 0 10px;
+        padding-top: 100px;
     }
 
-    #app {
+    .index-page .content-app {
+        width: 100%;
+    }
+    /* ********************************* */
 
+    #app {
         padding: 0;
     }
 
