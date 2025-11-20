@@ -1,4 +1,5 @@
 @media (max-width: 1500px) {
+
     .page-title-container .info .icons button.notification,
     .top-content .info .icons button.notification {
         display: flex;
@@ -26,7 +27,38 @@
     }
 }
 
+
+@media (max-width: 1300px) {
+
+    .detail-container .details .lost-info .row-info .info-item {
+        width: fit-content;
+    }
+
+}
+
+
+
+
+@media (max-width: 1250px) {
+
+
+    .detail-container {
+        flex-direction: column;
+    }
+
+    .detail-container .detail-container-row:first-child {
+        width: 100%;
+    }
+
+    .detail-container .detail-container-row:last-child {
+        width: 100%;
+    }
+
+
+}
+
 @media (min-width: 992px) {
+
     /* sidebar responsive */
     .main-app.side-bar-minimize .content-app {
         width: calc(100% - 75px);
@@ -71,6 +103,7 @@
 }
 
 @media (max-width: 992px) {
+
     /* ********************************* */
     .app-data {
         padding-top: 100px;
@@ -79,6 +112,7 @@
     .index-page .content-app {
         width: 100%;
     }
+
     /* ********************************* */
 
     #app {
@@ -190,6 +224,12 @@
     .side-bar {
         height: 100vh;
     }
+
+
+    .lost-detail-info .row .col-lg-6:first-child {
+        border-bottom: 1px solid #F1F1F1;
+        border-left: none
+    }
 }
 
 @media (max-width: 768px) {
@@ -223,6 +263,98 @@
     .row-train .images .train {
         left: 8%
     }
+
+
+
+    .detail-container .details {
+
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+
+    .lost-progress {
+        display: flex;
+    }
+
+    .lost-progress .progress-bar {
+        flex-direction: column;
+        width: auto;
+        margin: 0 auto;
+        height: auto;
+        padding: 0;
+    }
+
+    .row-colums {
+
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .lost-progress .progress-bar::after,
+    .lost-progress .progress-bar::before {
+        width: 2px;
+        height: 100%;
+        left: 50%;
+        right: unset;
+        bottom: 0;
+    }
+
+
+    .lost-progress .progress-bar::after {
+        top: 0;
+        transform: translateY(0%);
+        height: 0;
+    }
+
+    .lost-progress .progress-bar.progress-50::after {
+        width: 2px;
+        height: 25%;
+        animation: get50 4s forwards infinite;
+
+    }
+
+
+    /* 75% */
+    .lost-progress .progress-bar.progress-75::after {
+        width: 2px;
+        height: 75%;
+        animation: get75 4s forwards infinite;
+
+
+    }
+
+    /* 100% */
+    .lost-progress .progress-bar.progress-100::after {
+        width: 2px;
+        height: 100%;
+    }
+
+
+
+    @keyframes get50 {
+        0% {
+            height: 0%;
+        }
+
+        100% {
+            height: 25%;
+        }
+    }
+
+
+
+    @keyframes get75 {
+        0% {
+            height: 50%;
+        }
+
+        100% {
+            height: 75%;
+        }
+    }
+
 }
 
 @media (max-width: 650px) {
@@ -260,6 +392,8 @@
         padding: 7px;
         font-size: 12px;
     }
+
+
 
 }
 
@@ -373,6 +507,11 @@
         width: fit-content;
     }
 
+
+
+    .row-colums {
+        width: 80%;
+    }
 
 }
 

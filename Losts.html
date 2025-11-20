@@ -101,11 +101,9 @@
 
               <div class="lisks-side-bar">
                 <ul>
-
                   <li class="minimize-logo">
                     <a href="index.html" class="">
                       <img src="./assets/images/logo-vector.svg" alt=li">
-                      
                     </a>
                   </li>
                   <li class="active">
@@ -212,7 +210,7 @@
               <div class="page-title-container">
                 <div class="page-title">
                   <h2>
-                    <img src="./assets/images/arrows.svg" alt="" /> الرئيسية
+                    <img src="./assets/images/arrows.svg" alt="" /> المفقودات
                   </h2>
                 </div>
 
@@ -220,7 +218,7 @@
                   <div class="image">
                     <img src="./assets/images/user.png" alt="" />
                     <div class="caption">
-                      <h5 class="m-0">محمد بن عبدالله</h5>
+                      <h5 class="m-0">محمد العقيل</h5>
                       <p>موظف</p>
                     </div>
                   </div>
@@ -236,133 +234,75 @@
                   </div>
                 </div>
               </div>
-              <!--? ********************* Train ********************* -->
-              <div class="train">
-                <div class="row row-train px-0">
-                  <div class="col-lg-7 col-md-12">
-                    <div class="train-text">
-                      <h5><span class="fw-normal">أهلاً،</span> محمد 👋</h5>
-                      <p>
-                        نتمنى لك يوم عمل موفق يمكنك مباشرة تسجيل المفقودات
-                        الجديدة بكل سهولة.
-                      </p>
-                      <a href="" class="main_btn">اضافة مفقود</a>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-5 col-md-12">
-                    <div class="images">
-                      <div class="container-train">
-                        <div class="img-train">
-                          <img
-                            src="./assets/images/train.svg"
-                            class="the-train"
-                            alt=""
-                          />
-                          <!-- محطة القطر -->
-                          <img
-                            src="./assets/images/Towing station.svg"
-                            class="towing-station"
-                            alt=""
-                          />
-                          <img
-                            src="./assets/images/Welcome.svg"
-                            class="towing-station img-welcome"
-                            alt=""
-                          />
-                          <div
-                            style="
-                              background: url(./assets/images/Tow-bars.svg);
-                              background-size: contain;
-                            "
-                            ;
-                            class="tow-bars"
-                            alt=""
-                          >
-                            <!-- القضبان -->
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!--? ********************* End-Train ********************* -->
-
-              <div class="row cards g-2">
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <div class="card green">
-                    <div class="text">
-                      <h5>اجمالي المفقودات</h5>
-                      <span class="fw-bold fs-3">860</span>
-                      <span>مفقود</span>
-                    </div>
-                    <div class="image"></div>
-                  </div>
-                </div>
-
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <div class="card purple">
-                    <div class="text">
-                      <h5>اجمالي التسليمات</h5>
-                      <span class="fw-bold fs-3">860</span>
-                      <span>مفقود مستلم</span>
-                    </div>
-                    <div class="image"></div>
-                  </div>
-                </div>
-
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <div class="card red">
-                    <div class="text">
-                      <h5>اجمالي التلفات</h5>
-                      <span class="fw-bold fs-3">860</span>
-                      <span>تم اتلافه</span>
-                    </div>
-                    <div class="image"></div>
-                  </div>
-                </div>
-
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                  <div class="card orange">
-                    <div class="text">
-                      <h5>اجمالي الموظفين</h5>
-                      <span class="fw-bold fs-3">860</span>
-                      <span>موظف</span>
-                    </div>
-                    <div class="image"></div>
-                  </div>
-                </div>
-              </div>
 
               <div class="table">
                 <div class="head">
                   <div class="right-part-form">
-                    <h3 class="sub-title-text">المفقودات</h3>
+                    <a href="" class="main_btn">
+                      تصدير الى إكسل
+                      <img src="./assets/images/_x37_9-excel.svg" alt="" />
+                    </a>
                   </div>
                   <div class="left-part-form">
                     <form>
                       <input type="search" placeholder="بحث" />
-                      <!-- Dropdown Btn -->
-                      <div class="dropdown">
-                        <button id="dropdownBtn" type="button">
-                          حالة المفقود <span class="arrow">▼</span>
-                        </button>
 
-                        <ul class="dropdown-list">
-                          <li>
-                            <a class="dropdown-item" href="#">قيد المراجعة</a>
-                          </li>
-                          <li>
-                            <a class="dropdown-item" href="#">تم التطابق</a>
-                          </li>
-                          <li>
-                            <a class="dropdown-item" href="#">تم التسليم</a>
-                          </li>
-                          <li>
-                            <a class="dropdown-item" href="#">مفقود جديد</a>
-                          </li>
-                        </ul>
+                      <div class="filter-table">
+                        <a  class="main_btn" id="filter-btn">
+                          تصفيه
+                          <img src="./assets/images/filter.svg" alt="" />
+                        </a>
+
+                        <div class="filter-container">
+                          <label for=""> المحطة </label>
+                          <div class="select-filter">
+                            <img
+                              src="./assets/images/iconsax-arrow-down-03.svg"
+                              alt=""
+                            />
+                            <select>
+                              <option value="">الكل</option>
+                              <option value="">محطة التبادل الغربي أ</option>
+                              <option value="">محطة التبادل الغربي ب</option>
+                              <option value="">محطة الرياض المركزية</option>
+                            </select>
+                          </div>
+
+                          <label for=""> النوع </label>
+                          <div class="select-filter">
+                            <img
+                              src="./assets/images/iconsax-arrow-down-03.svg"
+                              alt=""
+                            />
+                            <select>
+                              <option value="">الكل</option>
+                              <option value="">كتب و مستندات</option>
+                              <option value="">أجهزة إلكترونية</option>
+                              <option value="">ملابس وأمتعة شخصية</option>
+                            </select>
+                          </div>
+                          <label for=""> الحالة </label>
+                          <div class="filter-status">
+                              <input type="checkbox" id="pending" />
+                            <label for="pending">قيد المراجعة</label>
+                            <input type="checkbox" id="equal" />
+                            <label for="equal"> تم التطابق</label>
+                            <input type="checkbox" id="deliverd" />
+                            <label for="deliverd"> تم التسليم</label>
+                            <input type="checkbox" id="found" />
+                            <label for="found"> عُثر عليه</label>
+                            <input type="checkbox" id="destroy" />
+                            <label for="destroy"> تم الإتلاف </label>
+                          </div>
+                          <div class="filter-actions">
+                            <button class="main_btn">
+                              تصفية
+                            </button>
+                            <a href="" class="main_btn1">
+                              إلغاء
+                            </a>
+                          </div>
+                        </div>
                       </div>
                     </form>
                   </div>
@@ -379,6 +319,10 @@
                         <td>
                           <img src="./assets/images/arrow-table.svg" alt="" />
                           نوع المفقود
+                        </td>
+                        <td>
+                          <img src="./assets/images/arrow-table.svg" alt="" />
+                          الصورة
                         </td>
                         <td>
                           <img src="./assets/images/arrow-table.svg" alt="" />
@@ -406,6 +350,9 @@
                       <tr>
                         <td><span>1</span></td>
                         <td><p>كتب و مستندات</p></td>
+                        <td class="lost-img">
+                          <img src="./assets/images/lost-item.png" alt="" />
+                        </td>
                         <td>
                           <span>2023-03-21</span>
                           <span>01:41 AM</span>
@@ -423,7 +370,7 @@
                               alt=""
                           /></span>
                         </td>
-                        
+
                         <td>
                           <span
                             ><img
@@ -445,6 +392,9 @@
                       <tr>
                         <td><span>1</span></td>
                         <td><p>كتب و مستندات</p></td>
+                        <td class="lost-img">
+                          <img src="./assets/images/lost-item.png" alt="" />
+                        </td>
                         <td>
                           <span>2023-03-21</span>
                           <span>01:41 AM</span>
@@ -483,6 +433,9 @@
                       <tr>
                         <td><span>1</span></td>
                         <td><p>كتب و مستندات</p></td>
+                        <td class="lost-img">
+                          <img src="./assets/images/lost-item.png" alt="" />
+                        </td>
                         <td>
                           <span>2023-03-21</span>
                           <span>01:41 AM</span>
@@ -521,6 +474,9 @@
                       <tr>
                         <td><span>1</span></td>
                         <td><p>كتب و مستندات</p></td>
+                        <td class="lost-img">
+                          <img src="./assets/images/lost-item.png" alt="" />
+                        </td>
                         <td>
                           <span>2023-03-21</span>
                           <span>01:41 AM</span>
@@ -559,6 +515,9 @@
                       <tr>
                         <td><span>1</span></td>
                         <td><p>كتب و مستندات</p></td>
+                        <td class="lost-img">
+                          <img src="./assets/images/lost-item.png" alt="" />
+                        </td>
                         <td>
                           <span>2023-03-21</span>
                           <span>01:41 AM</span>
@@ -598,6 +557,9 @@
                       <tr>
                         <td><span>1</span></td>
                         <td><p>كتب و مستندات</p></td>
+                        <td class="lost-img">
+                          <img src="./assets/images/lost-item.png" alt="" />
+                        </td>
                         <td>
                           <span>2023-03-21</span>
                           <span>01:41 AM</span>
@@ -636,6 +598,9 @@
                       <tr>
                         <td><span>1</span></td>
                         <td><p>كتب و مستندات</p></td>
+                        <td class="lost-img">
+                          <img src="./assets/images/lost-item.png" alt="" />
+                        </td>
                         <td>
                           <span>2023-03-21</span>
                           <span>01:41 AM</span>
@@ -674,6 +639,9 @@
                       <tr>
                         <td><span>1</span></td>
                         <td><p>كتب و مستندات</p></td>
+                        <td class="lost-img">
+                          <img src="./assets/images/lost-item.png" alt="" />
+                        </td>
                         <td>
                           <span>2023-03-21</span>
                           <span>01:41 AM</span>
@@ -765,7 +733,7 @@
                       <span class="fw-bold">منذ 8 دقائق</span>
                     </div>
                   </a>
-                  <a href="" class="box  worning">
+                  <a href="" class="box worning">
                     <div
                       class="image d-flex justify-content-center align-items-start gap-2"
                     >
@@ -909,85 +877,6 @@
                   </a>
                 </div>
               </div>
-              <!-- 
-              <div class="register-today">
-                <div class="head">
-                  <h5>سجل اليوم</h5>
-                  <p>14 أكتوبر 2025</p>
-                </div>
-
-                <div class="body">
-                  <div
-                    class="item d-flex flex-column justify-content-evenly align-items-center"
-                  >
-                    <div
-                      class="icon d-flex justify-content-evenly align-items-center gap-2"
-                    >
-                      <img src="./assets/images/time-icon.svg" alt="" />
-                      <h5 class="m-0">بداية الدوام</h5>
-                    </div>
-                    <div
-                      class="time d-flex justify-content-evenly align-items-center gap-2"
-                    >
-                      <h4>07:00</h4>
-                      <p>صباحا</p>
-                    </div>
-                  </div>
-
-                  <div
-                    class="item d-flex flex-column justify-content-evenly align-items-center"
-                  >
-                    <div
-                      class="icon d-flex justify-content-evenly align-items-center gap-2"
-                    >
-                      <img src="./assets/images/time-icon.svg" alt="" />
-                      <h5 class="m-0">بداية الدوام</h5>
-                    </div>
-                    <div
-                      class="time d-flex justify-content-evenly align-items-center gap-2"
-                    >
-                      <h4>07:00</h4>
-                      <p>صباحا</p>
-                    </div>
-                  </div>
-
-                  <div
-                    class="item d-flex flex-column justify-content-evenly align-items-center"
-                  >
-                    <div
-                      class="icon d-flex justify-content-evenly align-items-center gap-2"
-                    >
-                      <img src="./assets/images/time-icon.svg" alt="" />
-                      <h5 class="m-0">بداية الدوام</h5>
-                    </div>
-                    <div
-                      class="time d-flex justify-content-evenly align-items-center gap-2"
-                    >
-                      <h4>07:00</h4>
-                      <p>صباحا</p>
-                    </div>
-                  </div>
-
-                  <div
-                    class="item d-flex flex-column justify-content-evenly align-items-center"
-                  >
-                    <div
-                      class="icon d-flex justify-content-evenly align-items-center gap-2"
-                    >
-                      <img src="./assets/images/time-icon.svg" alt="" />
-                      <h5 class="m-0">بداية الدوام</h5>
-                    </div>
-                    <div
-                      class="time d-flex justify-content-evenly align-items-center gap-2"
-                    >
-                      <h4>07:00</h4>
-                      <p>صباحا</p>
-                    </div>
-                  </div>
-
-                  <button>اضغط لإنهاء دوامك</button>
-                </div>
-              </div> -->
             </div>
           </div>
         </div>
@@ -1025,5 +914,5 @@
   </body>
   <!-- end-body
 =================== -->
-<!--  -->
+  <!--  -->
 </html>

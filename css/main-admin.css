@@ -158,6 +158,10 @@
 }
 
 
+.app-data.pages{
+  height: fit-content;
+}
+
 /* ***************************************************** */
 .statistic-cards {
   height: 160px;

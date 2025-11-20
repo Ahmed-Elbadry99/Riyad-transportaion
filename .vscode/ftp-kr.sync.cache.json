@@ -1,0 +1,25 @@
+{
+  "ftp://37.187.145.203@Riyad@frontend.jadara.work": {
+    ".git": {},
+    ".vscode": {},
+    "Libraries": {},
+    "admin.html": {
+      "type": "-",
+      "size": 19235,
+      "lmtime": 0,
+      "modified": false
+    },
+    "assets": {},
+    "css": {},
+    "fonts": {},
+    "index.html": {
+      "type": "-",
+      "size": 41780,
+      "lmtime": 0,
+      "modified": false
+    },
+    "js": {},
+    "webfonts": {}
+  },
+  "$version": 1
+}
