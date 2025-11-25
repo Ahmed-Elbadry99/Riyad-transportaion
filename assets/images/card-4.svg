@@ -1,0 +1,41 @@
+<svg width="19" height="151" viewBox="0 0 19 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_285_8095)" filter="url(#filter0_n_285_8095)">
+<rect width="18.6911" height="150.526" transform="matrix(1 0 0 -1 0 150.526)" fill="#28EB00"/>
+<rect width="18.6911" height="9.34556" transform="matrix(1 0 0 -1 0 150.526)" fill="#011500"/>
+<rect x="0.000244141" y="87.84" width="18.6911" height="9.34556" fill="#011500"/>
+<rect y="69.1489" width="18.6911" height="9.34556" fill="#033400"/>
+<rect width="13.2283" height="13.2283" transform="matrix(0.707107 0.707107 0.707107 -0.707107 0.00012207 141.18)" fill="#32FF14"/>
+<rect x="0.000183105" y="97.186" width="13.2283" height="13.2283" transform="rotate(-45 0.000183105 97.186)" fill="#011500"/>
+<rect width="18.6911" height="9.34556" transform="matrix(1 0 0 -1 0.000244141 87.84)" fill="#011500"/>
+<rect width="13.2283" height="13.2283" transform="matrix(0.707107 0.707107 0.707107 -0.707107 6.10352e-05 78.4947)" fill="#32FF14"/>
+<rect x="0.000305176" y="9.33733" width="18.6911" height="9.34556" fill="#011500"/>
+<rect x="0.000305176" y="18.6831" width="13.2283" height="13.2283" transform="rotate(-45 0.000305176 18.6831)" fill="#011500"/>
+<rect width="18.6911" height="9.34556" transform="matrix(1 0 0 -1 0.000305176 9.33733)" fill="#011500"/>
+<rect width="13.2283" height="13.2283" transform="matrix(0.707107 0.707107 0.707107 -0.707107 0.000183105 -0.00822449)" fill="#32FF14"/>
+<rect width="13.2283" height="13.2283" transform="matrix(0.707107 0.707107 0.707107 -0.707107 9.34589 69.1492)" fill="#033400"/>
+<rect width="13.2283" height="13.2283" transform="matrix(0.707107 0.707107 0.707107 -0.707107 -9.34552 69.1491)" fill="#033400"/>
+<rect width="13.2283" height="13.2283" transform="matrix(0.707107 0.707107 0.707107 -0.707107 9.34601 28.0285)" fill="#033400"/>
+<rect width="13.2283" height="13.2283" transform="matrix(0.707107 0.707107 0.707107 -0.707107 -9.3454 28.0284)" fill="#033400"/>
+</g>
+<defs>
+<filter id="filter0_n_285_8095" x="0" y="1.52588e-05" width="18.6911" height="150.526" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feTurbulence type="fractalNoise" baseFrequency="16.050397872924805 16.050397872924805" stitchTiles="stitch" numOctaves="3" result="noise" seed="4177" />
+<feColorMatrix in="noise" type="luminanceToAlpha" result="alphaNoise" />
+<feComponentTransfer in="alphaNoise" result="coloredNoise1">
+<feFuncA type="discrete" tableValues="0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
+</feComponentTransfer>
+<feComposite operator="in" in2="shape" in="coloredNoise1" result="noise1Clipped" />
+<feFlood flood-color="rgba(25, 48, 25, 0.25)" result="color1Flood" />
+<feComposite operator="in" in2="noise1Clipped" in="color1Flood" result="color1" />
+<feMerge result="effect1_noise_285_8095">
+<feMergeNode in="shape" />
+<feMergeNode in="color1" />
+</feMerge>
+</filter>
+<clipPath id="clip0_285_8095">
+<rect width="18.6911" height="150.526" fill="white" transform="matrix(1 0 0 -1 0 150.526)"/>
+</clipPath>
+</defs>
+</svg>

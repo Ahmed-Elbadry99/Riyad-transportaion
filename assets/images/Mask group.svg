@@ -1,0 +1,74 @@
+<svg width="103" height="120" viewBox="0 0 103 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_575_1476" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="103" height="120">
+<rect width="103" height="120" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_575_1476)">
+<g opacity="0.15" clip-path="url(#clip0_575_1476)" filter="url(#filter0_n_575_1476)">
+<rect width="52.2462" height="420.756" transform="matrix(0.906308 -0.422618 -0.422618 -0.906308 106.819 252.415)" fill="#28EB00"/>
+<rect x="32.7672" y="93.6095" width="52.2462" height="26.1231" transform="rotate(-25 32.7672 93.6095)" fill="#011500"/>
+<rect x="10.6865" y="46.259" width="52.2462" height="26.1231" transform="rotate(-25 10.6865 46.259)" fill="#033400"/>
+<rect x="43.809" y="117.286" width="36.9762" height="36.9762" transform="rotate(-70 43.809 117.286)" fill="#011500"/>
+<rect width="52.2462" height="26.1231" transform="matrix(0.906308 -0.422618 -0.422618 -0.906308 32.7672 93.6095)" fill="#011500"/>
+<rect width="36.9762" height="36.9762" transform="matrix(0.939693 0.34202 0.34202 -0.939693 21.7268 69.9346)" fill="#32FF14"/>
+<rect width="36.9762" height="36.9762" transform="matrix(0.939693 0.34202 0.34202 -0.939693 34.3641 35.2186)" fill="#033400"/>
+<rect width="36.9762" height="36.9762" transform="matrix(0.939693 0.34202 0.34202 -0.939693 -12.9885 57.2994)" fill="#033400"/>
+</g>
+<g clip-path="url(#clip1_575_1476)" filter="url(#filter1_n_575_1476)">
+<rect width="18.6911" height="150.526" transform="matrix(-0.906308 0.422618 0.422618 0.906308 23.453 -9.54424)" fill="#28EB00"/>
+<rect width="18.6911" height="9.34556" transform="matrix(-0.906308 0.422618 0.422618 0.906308 23.453 -9.54424)" fill="#011500"/>
+<rect x="49.9449" y="47.2685" width="18.6911" height="9.34556" transform="rotate(155 49.9449 47.2685)" fill="#011500"/>
+<rect x="57.8444" y="64.2083" width="18.6911" height="9.34556" transform="rotate(155 57.8444 64.2083)" fill="#033400"/>
+<rect width="13.2283" height="13.2283" transform="matrix(-0.939693 -0.34202 -0.34202 0.939693 27.4026 -1.07413)" fill="#32FF14"/>
+<rect x="45.9952" y="38.7982" width="13.2283" height="13.2283" transform="rotate(110 45.9952 38.7982)" fill="#011500"/>
+<rect width="18.6911" height="9.34556" transform="matrix(-0.906308 0.422618 0.422618 0.906308 49.9449 47.2685)" fill="#011500"/>
+<rect width="13.2283" height="13.2283" transform="matrix(-0.939693 -0.34202 -0.34202 0.939693 53.8947 55.7382)" fill="#32FF14"/>
+<rect x="83.1216" y="118.416" width="18.6911" height="9.34556" transform="rotate(155 83.1216 118.416)" fill="#011500"/>
+<rect x="79.1719" y="109.946" width="13.2283" height="13.2283" transform="rotate(110 79.1719 109.946)" fill="#011500"/>
+<rect width="18.6911" height="9.34556" transform="matrix(-0.906308 0.422618 0.422618 0.906308 83.1216 118.416)" fill="#011500"/>
+<rect width="13.2283" height="13.2283" transform="matrix(-0.939693 -0.34202 -0.34202 0.939693 49.374 68.1578)" fill="#033400"/>
+<rect width="13.2283" height="13.2283" transform="matrix(-0.939693 -0.34202 -0.34202 0.939693 66.3143 60.2586)" fill="#033400"/>
+<rect width="13.2283" height="13.2283" transform="matrix(-0.939693 -0.34202 -0.34202 0.939693 66.7523 105.426)" fill="#033400"/>
+<rect width="13.2283" height="13.2283" transform="matrix(-0.939693 -0.34202 -0.34202 0.939693 83.6925 97.5266)" fill="#033400"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_n_575_1476" x="-71" y="-151" width="225.17" height="403.415" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feTurbulence type="fractalNoise" baseFrequency="5.7420439720153809 5.7420439720153809" stitchTiles="stitch" numOctaves="3" result="noise" seed="4177" />
+<feColorMatrix in="noise" type="luminanceToAlpha" result="alphaNoise" />
+<feComponentTransfer in="alphaNoise" result="coloredNoise1">
+<feFuncA type="discrete" tableValues="0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
+</feComponentTransfer>
+<feComposite operator="in" in2="shape" in="coloredNoise1" result="noise1Clipped" />
+<feFlood flood-color="rgba(25, 48, 25, 0.25)" result="color1Flood" />
+<feComposite operator="in" in2="noise1Clipped" in="color1Flood" result="color1" />
+<feMerge result="effect1_noise_575_1476">
+<feMergeNode in="shape" />
+<feMergeNode in="color1" />
+</feMerge>
+</filter>
+<filter id="filter1_n_575_1476" x="6.51306" y="-9.54424" width="80.5549" height="144.322" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feTurbulence type="fractalNoise" baseFrequency="16.050397872924805 16.050397872924805" stitchTiles="stitch" numOctaves="3" result="noise" seed="4177" />
+<feColorMatrix in="noise" type="luminanceToAlpha" result="alphaNoise" />
+<feComponentTransfer in="alphaNoise" result="coloredNoise1">
+<feFuncA type="discrete" tableValues="0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
+</feComponentTransfer>
+<feComposite operator="in" in2="shape" in="coloredNoise1" result="noise1Clipped" />
+<feFlood flood-color="rgba(25, 48, 25, 0.25)" result="color1Flood" />
+<feComposite operator="in" in2="noise1Clipped" in="color1Flood" result="color1" />
+<feMerge result="effect1_noise_575_1476">
+<feMergeNode in="shape" />
+<feMergeNode in="color1" />
+</feMerge>
+</filter>
+<clipPath id="clip0_575_1476">
+<rect width="52.2462" height="420.756" fill="white" transform="matrix(0.906308 -0.422618 -0.422618 -0.906308 106.819 252.415)"/>
+</clipPath>
+<clipPath id="clip1_575_1476">
+<rect width="18.6911" height="150.526" fill="white" transform="matrix(-0.906308 0.422618 0.422618 0.906308 23.453 -9.54424)"/>
+</clipPath>
+</defs>
+</svg>

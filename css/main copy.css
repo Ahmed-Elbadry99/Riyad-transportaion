@@ -1,0 +1,379 @@
+h5 {
+    font-size: 16px;
+}
+.top-content .info .image .caption {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.app-data {
+    width: 100%;
+    padding: 0 25px;
+}
+.content .title {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 5px;
+    padding: 30px 0 20px 0;
+    color: var(--dark-green);
+}
+.content .caption {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.content .caption .title h3 {   
+    color: var(--color-black);
+    font-weight: 100 !important;
+}
+.content .caption p {
+    font-size: 15px;
+}
+.content .caption .title span.name {
+    font-weight: 600;
+    color: var(--light-green);
+}
+.content .caption .title p {
+    font-size: 14px;
+}
+.content .caption .title {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.content .title h2 {
+    font-size: 16px;
+    font-weight: 700;
+}
+/*! Cards */
+.cards .card {
+    color: var(--color-white);
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+.cards .card .text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px 10px 10px 0
+}
+.cards .card.green {
+    background-color: #1CB300;
+}
+.cards .card.purple {
+    background-color: var(--dark-purple);
+}
+.cards .card.red {
+    background-color: var(--dark-red);
+}
+.cards .card.orange {
+    background-color: var(--dark-orange);
+}
+.cards .card.yellow {
+    background-color: rgba(254, 203, 0, 1);
+}
+.cards .card.blue {
+    background-color: rgba(0, 152, 254, 1);
+}
+.cards .card.gray {
+    background-color: rgba(49, 57, 65, 1);
+}
+.cards .card.gray-2 {
+    background-color: rgba(175, 175, 175, 1);
+}
+.cards .card .image {
+    position: relative;
+    width: 20%;
+    height: 120px;
+}
+.cards .card .image::before {
+    content: "";
+    position: absolute;
+    background-image: url("../assets/images/card-Bg-1.svg");
+    width: 100px;
+    height: 100%;
+    left: -10px;
+}
+.cards .card .image img {
+    position: absolute;
+    left: 0;
+}
+/*? after */
+.cards .card.green .image::after {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 25px;
+    width: 20px;
+    height: 125%;
+    background-image: url("../assets/images/card-4.svg");
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: 0 0;
+    z-index: 99999;
+    transform: rotate(150deg);
+    /* animation: bgMoveUp 20s linear infinite; */
+}
+.cards .card.green:hover .image::after {
+    animation: bgMoveUp 20s linear infinite;
+}
+.cards .card.purple .image::after {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 25px;
+    width: 20px;
+    height: 125%;
+    background-image: url("../assets/images/card-2.svg");
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: 0 0;
+    z-index: 99999;
+    transform: rotate(150deg);
+    /* animation: bgMoveDown 20s linear infinite; */
+}
+.cards .card.purple:hover .image::after {
+    animation: bgMoveDown 20s linear infinite;
+}
+.cards .card.red .image::after {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 25px;
+    width: 20px;
+    height: 125%;
+    background-image: url("../assets/images/card-1.svg");
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: 0 0;
+    z-index: 99999;
+    transform: rotate(150deg);
+    /* animation: bgMoveUp 20s linear infinite; */
+}
+.cards .card.red:hover .image::after {
+    animation: bgMoveUp 20s linear infinite;
+}
+.cards .card.orange .image::after {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 25px;
+    width: 20px;
+    height: 125%;
+    background-image: url("../assets/images/card-3.svg");
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: 0 0;
+    z-index: 99999;
+    transform: rotate(150deg);
+    /* animation: bgMoveDown 20s linear infinite; */
+}
+.cards .card.orange:hover .image::after {
+    animation: bgMoveDown 20s linear infinite;
+}
+.cards .card.yellow .image::after {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 25px;
+    width: 20px;
+    height: 125%;
+    background-image: url("../assets/images/card-yellow.svg");
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: 0 0;
+    z-index: 99999;
+    transform: rotate(150deg);
+    /* animation: bgMoveUp 20s linear infinite; */
+}
+.cards .card.yellow:hover .image::after {
+    animation: bgMoveUp 20s linear infinite;
+}
+.cards .card.blue .image::after {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 25px;
+    width: 20px;
+    height: 125%;
+    background-image: url("../assets/images/card-blue.svg");
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: 0 0;
+    z-index: 99999;
+    transform: rotate(150deg);
+    /* animation: bgMoveDown 20s linear infinite; */
+}
+.cards .card.blue:hover .image::after {
+    animation: bgMoveDown 20s linear infinite;
+}
+.cards .card.gray .image::after {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 25px;
+    width: 20px;
+    height: 125%;
+    background-image: url("../assets/images/card-gray.svg");
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: 0 0;
+    z-index: 99999;
+    transform: rotate(150deg);
+    /* animation: bgMoveUp 20s linear infinite; */
+}
+.cards .card.gray:hover .image::after {
+    animation: bgMoveUp 20s linear infinite;
+}
+.cards .card.gray-2 .image::after {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 25px;
+    width: 20px;
+    height: 125%;
+    background-image: url("../assets/images/card-gray2.svg");
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: 0 0;
+    z-index: 99999;
+    transform: rotate(150deg);
+    /* animation: bgMoveDown 20s linear infinite; */
+}
+.cards .card.gray-2:hover .image::after {
+    animation: bgMoveDown 20s linear infinite;
+}
+
+@keyframes bgMoveUp {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 2000px;
+    }
+}
+
+@keyframes bgMoveDown {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 -2000px;
+    }
+}
+
+/*! Chart-JS */
+.container-chart {
+    overflow-x: auto;
+}
+.chart-box {
+    background: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 25px; */
+}
+.chart-header-1 {
+    margin-bottom: 75px;
+}
+.chart-header-2 {
+    margin-bottom: 30px;
+}
+
+.chart-header h3 {
+    color: #444;
+    font-size: 16px;
+    margin: 0;
+}
+
+.chart-box #dropdownBtn-month,
+.chart-box #dropdownBtn-year {
+    background-color: var(--color-white);
+    color: var(--light-green);
+    border: 1px solid var(--light-green);
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+#dropdownBtn-month:hover,
+#dropdownBtn-year:hover {
+    box-shadow: none;
+    background-color: var(--light-green);
+    color: var(--color-white);
+}
+
+.row.chart {
+    padding-block: 16px;
+}
+.chart-box .chart-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 30px; */
+}
+.chart-box .chart-buttons button {
+    background-color: #eee;
+    color: #fff;
+    padding: 10px;
+}
+.chart-box .chart-buttons button.active {
+    background-color: var(--light-green);
+}
+.chart-box .chart-buttons button:nth-child(1) {
+    border-radius: 0 5px 5px 0;
+}
+.chart-box .chart-buttons button:nth-child(2) {
+    border-radius: 5px 0 0 5px;
+}
+
+.dropdown-list {
+    width: 150px;
+    padding: 0;
+}
+.dropdown-list li a {
+    padding: 5px 10px;
+}
+
+/*! Media Query */
+@media (max-width: 992px) {
+    .content .caption {
+        padding-block: 20px;
+    }
+}
+@media (max-width: 930px){
+    .cards {
+        justify-content: center;
+    }
+}
+@media (max-width: 680px){
+    .content .caption {
+        padding: 20px 0;
+        width: 500px;
+    }
+    .chart-box {
+        width: 600px;
+    }
+}
+@media (max-width: 540px){
+    .content .caption {
+        width: 400px;
+    }
+}
+@media (max-width: 470px){
+    .content .caption {
+        width: 300px;
+    }
+    .app-data {
+        padding: 25px 10px;
+    }
+}

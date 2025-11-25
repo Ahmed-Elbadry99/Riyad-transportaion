@@ -1,0 +1,38 @@
+<svg width="19" height="120" viewBox="0 0 19 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_285_8244)" filter="url(#filter0_n_285_8244)">
+<rect width="18.6911" height="150.526" transform="matrix(1 0 0 -1 0 138.494)" fill="#FFE1A4"/>
+<rect x="0.000244141" y="75.8082" width="18.6911" height="9.34556" fill="#171000"/>
+<rect y="57.1171" width="18.6911" height="9.34556" fill="#3A2C00"/>
+<rect width="13.2283" height="13.2283" transform="matrix(0.707107 0.707107 0.707107 -0.707107 0.00012207 129.148)" fill="#FFEFD3"/>
+<rect x="0.000183105" y="85.1541" width="13.2283" height="13.2283" transform="rotate(-45 0.000183105 85.1541)" fill="#171000"/>
+<rect width="18.6911" height="9.34556" transform="matrix(1 0 0 -1 0.000244141 75.8082)" fill="#171000"/>
+<rect width="13.2283" height="13.2283" transform="matrix(0.707107 0.707107 0.707107 -0.707107 6.10352e-05 66.4628)" fill="#FFEFD3"/>
+<rect x="0.000305176" y="-2.69452" width="18.6911" height="9.34556" fill="#171000"/>
+<rect x="0.000305176" y="6.65121" width="13.2283" height="13.2283" transform="rotate(-45 0.000305176 6.65121)" fill="#171000"/>
+<rect width="13.2283" height="13.2283" transform="matrix(0.707107 0.707107 0.707107 -0.707107 9.34589 57.1173)" fill="#3A2C00"/>
+<rect width="13.2283" height="13.2283" transform="matrix(0.707107 0.707107 0.707107 -0.707107 -9.34552 57.1172)" fill="#3A2C00"/>
+<rect width="13.2283" height="13.2283" transform="matrix(0.707107 0.707107 0.707107 -0.707107 9.34601 15.9966)" fill="#3A2C00"/>
+<rect width="13.2283" height="13.2283" transform="matrix(0.707107 0.707107 0.707107 -0.707107 -9.3454 15.9965)" fill="#3A2C00"/>
+</g>
+<defs>
+<filter id="filter0_n_285_8244" x="0" y="-12.0319" width="18.6911" height="150.526" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feTurbulence type="fractalNoise" baseFrequency="16.050397872924805 16.050397872924805" stitchTiles="stitch" numOctaves="3" result="noise" seed="4177" />
+<feColorMatrix in="noise" type="luminanceToAlpha" result="alphaNoise" />
+<feComponentTransfer in="alphaNoise" result="coloredNoise1">
+<feFuncA type="discrete" tableValues="0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
+</feComponentTransfer>
+<feComposite operator="in" in2="shape" in="coloredNoise1" result="noise1Clipped" />
+<feFlood flood-color="rgba(25, 48, 25, 0.25)" result="color1Flood" />
+<feComposite operator="in" in2="noise1Clipped" in="color1Flood" result="color1" />
+<feMerge result="effect1_noise_285_8244">
+<feMergeNode in="shape" />
+<feMergeNode in="color1" />
+</feMerge>
+</filter>
+<clipPath id="clip0_285_8244">
+<rect width="18.6911" height="150.526" fill="white" transform="matrix(1 0 0 -1 0 138.494)"/>
+</clipPath>
+</defs>
+</svg>
