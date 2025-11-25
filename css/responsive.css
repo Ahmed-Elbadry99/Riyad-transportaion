@@ -355,6 +355,73 @@
         }
     }
 
+
+
+    /* chat */
+
+    .chat-container {
+
+        flex-direction: column;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .chat-users {
+        width: 100%;
+
+    }
+
+    .user-list{
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        height: fit-content;
+    }
+
+
+    .chat-users{
+        height: 175px;
+    }
+    .list-item{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .list-item .list-item-text .info-user{
+        width: fit-content;
+    }
+
+    .list-item .list-item-text .info-user p{
+        font-size: 14px;
+         white-space: nowrap;
+    overflow: hidden;      /* يخفي الزيادة */
+    text-overflow: ellipsis;
+    }
+    .list-item .list-item-text .info-user span{
+        display: none;
+    }
+
+    .list-item-text .col-4{
+        display: none;
+    }
+
+    .list-item-text .col-8{
+        width: 100%;
+    }
+    .list-item-text {
+        height: fit-content;
+    }
+    .chat-users .header {
+        height: 70px;
+    }
+
+
+    .chat-messages{
+
+        height: calc(100vh - 180px);
+    }
+
 }
 
 @media (max-width: 650px) {

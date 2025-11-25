@@ -36,6 +36,9 @@
 
     --dark-purple: #CB00CB;
     --light-purple: #FFEBFF;
+
+    --text-gray : #7F7F7F;
+    --text-light-gray : #BDBDBD;
 }
 
 body {
