@@ -1219,7 +1219,11 @@
 }
 
 
+/* <<<<<<< HEAD */
 /* 
+=======
+
+>>>>>>> f186c48b4104bcc0fa63f8c1e4885398b2a3aca7
 .upload-box {
   width: 100%;
   height: 140px;
@@ -1244,7 +1248,11 @@
 .upload-box i {
   font-size: 22px;
   margin-bottom: 5px;
-} */
+/* <<<<<<< HEAD */
+/* } */ */
+/* ======= */
+/* } */
+/* >>>>>>> f186c48b4104bcc0fa63f8c1e4885398b2a3aca7 */
 
 input[type="file"] {
   display: none;

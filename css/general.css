@@ -36,6 +36,12 @@
 
     --dark-purple: #CB00CB;
     --light-purple: #FFEBFF;
+/* <<<<<<< HEAD
+======= */
+
+    --text-gray : #7F7F7F;
+    --text-light-gray : #BDBDBD;
+/* >>>>>>> f186c48b4104bcc0fa63f8c1e4885398b2a3aca7 */
 }
 
 body {
@@ -145,7 +151,11 @@ h3,
 h4,
 h5,
 h6 {
+/* <<<<<<< HEAD */
   font-family: "font_bold";
+/* ======= */
+  /* font-family: "font_bold"; */
+/* >>>>>>> f186c48b4104bcc0fa63f8c1e4885398b2a3aca7 */
 }
 
 p {
@@ -427,10 +437,13 @@ body {
 .form-control::placeholder {
   color: #939393;
 }
+/* <<<<<<< HEAD */
 input::placeholder {
     color: #BDBDBD;
     font-size: 12px;
 }
+/* ======= */
+/* >>>>>>> f186c48b4104bcc0fa63f8c1e4885398b2a3aca7 */
 
 textarea {
   height: 170px ;

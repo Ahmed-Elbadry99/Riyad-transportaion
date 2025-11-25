@@ -6,6 +6,10 @@
     }
 
     .left-part .info {
+/* <<<<<<< HEAD */
+/* ======= */
+        /* left: -100%; */
+/* >>>>>>> f186c48b4104bcc0fa63f8c1e4885398b2a3aca7 */
         display: none;
     }
 
@@ -16,6 +20,10 @@
 
 
     .index-page .page-title-container .info {
+/* <<<<<<< HEAD */
+/* ======= */
+
+/* >>>>>>> f186c48b4104bcc0fa63f8c1e4885398b2a3aca7 */
         display: flex;
     }
 
@@ -67,6 +75,14 @@
         display: none;
     }
 
+/* <<<<<<< HEAD */
+/* ======= */
+    .main-app.side-bar-minimize .side-bar .min-logo {
+        display: flex;
+        margin-top: 60px;
+    }
+
+/* >>>>>>> f186c48b4104bcc0fa63f8c1e4885398b2a3aca7 */
     .main-app.side-bar-minimize .side-bar-container,
     .main-app.side-bar-minimize .side-bar {
         width: 75px;
@@ -92,7 +108,12 @@
 
     .main-app.side-bar-minimize .side-bar .bar-header {
 
+/* <<<<<<< HEAD */
         height: 50px;
+/* ======= */
+        height: fit-content;
+        padding: 0 0 0 10px;
+/* >>>>>>> f186c48b4104bcc0fa63f8c1e4885398b2a3aca7 */
     }
 
     .main-app.side-bar-minimize .side-bar .sidebar-bottom {
@@ -353,6 +374,81 @@
         }
     }
 
+/* <<<<<<< HEAD */
+/* ======= */
+
+
+    /* chat */
+
+    .chat-container {
+
+        flex-direction: column;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .chat-users {
+        width: 100%;
+
+    }
+
+    .user-list {
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        height: fit-content;
+    }
+
+
+    .chat-users {
+        height: 175px;
+    }
+
+    .list-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .list-item .list-item-text .info-user {
+        width: fit-content;
+    }
+
+    .list-item .list-item-text .info-user p {
+        font-size: 14px;
+        white-space: nowrap;
+        overflow: hidden;
+        /* يخفي الزيادة */
+        text-overflow: ellipsis;
+    }
+
+    .list-item .list-item-text .info-user span {
+        display: none;
+    }
+
+    .list-item-text .col-4 {
+        display: none;
+    }
+
+    .list-item-text .col-8 {
+        width: 100%;
+    }
+
+    .list-item-text {
+        height: fit-content;
+    }
+
+    .chat-users .header {
+        height: 70px;
+    }
+
+
+    .chat-messages {
+
+        height: calc(100vh - 180px);
+    }
+
+>>>>>>> f186c48b4104bcc0fa63f8c1e4885398b2a3aca7
 }
 
 @media (max-width: 650px) {
@@ -511,6 +607,27 @@
         width: 80%;
     }
 
+/* <<<<<<< HEAD */
+/* ======= */
+    .list-item img {
+        width: 40px;
+        height: 40px;
+
+    }
+
+    .list-item .list-item-text .info-user p {
+        font-size: 12px;
+    }
+
+    .chat-users .header input {
+        height: 35px;
+    }
+
+    .chat-users .header a {
+        width: 35px;
+        height: 35px;
+    }
+>>>>>>> f186c48b4104bcc0fa63f8c1e4885398b2a3aca7
 }
 
 @media (max-width: 375px) {
