@@ -69,6 +69,11 @@
         display: none;
     }
 
+    .main-app.side-bar-minimize .side-bar .min-logo {
+        display: flex;
+        margin-top: 60px;
+    }
+
     .main-app.side-bar-minimize .side-bar-container,
     .main-app.side-bar-minimize .side-bar {
         width: 75px;
@@ -94,7 +99,8 @@
 
     .main-app.side-bar-minimize .side-bar .bar-header {
 
-        height: 50px;
+        height: fit-content;
+        padding: 0 0 0 10px;
     }
 
     .main-app.side-bar-minimize .side-bar .sidebar-bottom {
@@ -372,7 +378,7 @@
 
     }
 
-    .user-list{
+    .user-list {
         display: flex;
         flex-direction: row;
         overflow-x: auto;
@@ -380,44 +386,49 @@
     }
 
 
-    .chat-users{
+    .chat-users {
         height: 175px;
     }
-    .list-item{
+
+    .list-item {
         flex-direction: column;
         align-items: center;
     }
 
-    .list-item .list-item-text .info-user{
+    .list-item .list-item-text .info-user {
         width: fit-content;
     }
 
-    .list-item .list-item-text .info-user p{
+    .list-item .list-item-text .info-user p {
         font-size: 14px;
-         white-space: nowrap;
-    overflow: hidden;      /* يخفي الزيادة */
-    text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        /* يخفي الزيادة */
+        text-overflow: ellipsis;
     }
-    .list-item .list-item-text .info-user span{
+
+    .list-item .list-item-text .info-user span {
         display: none;
     }
 
-    .list-item-text .col-4{
+    .list-item-text .col-4 {
         display: none;
     }
 
-    .list-item-text .col-8{
+    .list-item-text .col-8 {
         width: 100%;
     }
+
     .list-item-text {
         height: fit-content;
     }
+
     .chat-users .header {
         height: 70px;
     }
 
 
-    .chat-messages{
+    .chat-messages {
 
         height: calc(100vh - 180px);
     }
@@ -580,6 +591,24 @@
         width: 80%;
     }
 
+    .list-item img {
+        width: 40px;
+        height: 40px;
+
+    }
+
+    .list-item .list-item-text .info-user p {
+        font-size: 12px;
+    }
+
+    .chat-users .header input {
+        height: 35px;
+    }
+
+    .chat-users .header a {
+        width: 35px;
+        height: 35px;
+    }
 }
 
 @media (max-width: 375px) {

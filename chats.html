@@ -97,15 +97,20 @@
                     <img src="./assets/images/Logo.svg" alt="logo" />
                   </a>
                 </div>
+                <div class="min-logo">
+                  <a href="">
+                    <img src="./assets/images/logo-vector.svg" alt="logo" />
+                  </a>
+                </div>
               </div>
 
               <div class="lisks-side-bar">
                 <ul>
-                  <li class="minimize-logo">
+                  <!-- <li class="minimize-logo">
                     <a href="index.html" class="">
                       <img src="./assets/images/logo-vector.svg" alt=li">
                     </a>
-                  </li>
+                  </li> -->
                   <li class="active">
                     <a href="index.html" class="">
                       <img src="./assets/images/sidebar-1.svg" alt=li">
@@ -240,7 +245,12 @@
                 <div class="chat-users">
                   <div class="header">
                     <input type="search" placeholder="بحث في المحادثات....." />
-                    <a href="" class="main_btn"   data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <a
+                      href=""
+                      class="main_btn"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                    >
                       <img src="./assets/images/add-chatbox.svg" alt="" />
                     </a>
                   </div>
@@ -268,7 +278,10 @@
                       </div>
                     </a>
                     <a href="" class="list-item">
-                      <img src="./assets/images/chat-user.png" alt="" />
+                      <div class="img-container ">
+                        <img src="./assets/images/chat-user.png" alt="" />
+                        <span class="active-status"></span>
+                      </div>
                       <div class="list-item-text">
                         <div class="row">
                           <div class="col-8">
@@ -287,7 +300,10 @@
                       </div>
                     </a>
                     <a href="" class="list-item">
-                      <img src="./assets/images/chat-user.png" alt="" />
+                      <div class="img-container active">
+                        <img src="./assets/images/chat-user.png" alt="" />
+                        <span class="active-status"></span>
+                      </div>
                       <div class="list-item-text">
                         <div class="row">
                           <div class="col-8">
@@ -306,7 +322,10 @@
                       </div>
                     </a>
                     <a href="" class="list-item">
-                      <img src="./assets/images/chat-user.png" alt="" />
+                      <div class="img-container ">
+                        <img src="./assets/images/chat-user.png" alt="" />
+                        <span class="active-status"></span>
+                      </div>
                       <div class="list-item-text">
                         <div class="row">
                           <div class="col-8">
@@ -325,7 +344,10 @@
                       </div>
                     </a>
                     <a href="" class="list-item">
-                      <img src="./assets/images/chat-user.png" alt="" />
+                      <div class="img-container ">
+                        <img src="./assets/images/chat-user.png" alt="" />
+                        <span class="active-status"></span>
+                      </div>
                       <div class="list-item-text">
                         <div class="row">
                           <div class="col-8">
@@ -344,7 +366,10 @@
                       </div>
                     </a>
                     <a href="" class="list-item">
-                      <img src="./assets/images/chat-user.png" alt="" />
+                      <div class="img-container active">
+                        <img src="./assets/images/chat-user.png" alt="" />
+                        <span class="active-status"></span>
+                      </div>
                       <div class="list-item-text">
                         <div class="row">
                           <div class="col-8">
@@ -363,7 +388,10 @@
                       </div>
                     </a>
                     <a href="" class="list-item">
-                      <img src="./assets/images/chat-user.png" alt="" />
+                      <div class="img-container active">
+                        <img src="./assets/images/chat-user.png" alt="" />
+                        <span class="active-status"></span>
+                      </div>
                       <div class="list-item-text">
                         <div class="row">
                           <div class="col-8">
@@ -382,7 +410,10 @@
                       </div>
                     </a>
                     <a href="" class="list-item">
-                      <img src="./assets/images/chat-user.png" alt="" />
+                      <div class="img-container ">
+                        <img src="./assets/images/chat-user.png" alt="" />
+                        <span class="active-status"></span>
+                      </div>
                       <div class="list-item-text">
                         <div class="row">
                           <div class="col-8">
@@ -401,7 +432,10 @@
                       </div>
                     </a>
                     <a href="" class="list-item">
-                      <img src="./assets/images/chat-user.png" alt="" />
+                      <div class="img-container active">
+                        <img src="./assets/images/chat-user.png" alt="" />
+                        <span class="active-status"></span>
+                      </div>
                       <div class="list-item-text">
                         <div class="row">
                           <div class="col-8">
@@ -420,7 +454,10 @@
                       </div>
                     </a>
                     <a href="" class="list-item">
-                      <img src="./assets/images/chat-user.png" alt="" />
+                      <div class="img-container ">
+                        <img src="./assets/images/chat-user.png" alt="" />
+                        <span class="active-status"></span>
+                      </div>
                       <div class="list-item-text">
                         <div class="row">
                           <div class="col-8">
@@ -875,7 +912,7 @@
 
       <!-- Modal -->
       <div
-        class="modal fade   add-chat-model"
+        class="modal fade add-chat-model"
         id="exampleModal"
         tabindex="-1"
         aria-labelledby="exampleModalLabel"
@@ -884,7 +921,6 @@
         <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
             <div class="modal-header">
-              
               <button
                 type="button"
                 class="btn-close"
@@ -894,21 +930,18 @@
             </div>
             <div class="modal-body">
               <div class="header">
-                <p>
-                  محادثة جديدة
-                </p>
+                <p>محادثة جديدة</p>
                 <span>
                   أدخل البريد الالكتروني أو رقم الجوال لبدء التواصل معه
                 </span>
-
               </div>
-              <input type="text" placeholder="البريد الالكتروني او رقم الجوال...">
+              <input
+                type="text"
+                placeholder="البريد الالكتروني او رقم الجوال..."
+              />
             </div>
             <div class="modal-footer">
-              
-              <button type="button" class="main_btn">
-                 بدأ المحادثة
-              </button>
+              <button type="button" class="main_btn">بدأ المحادثة</button>
             </div>
           </div>
         </div>
