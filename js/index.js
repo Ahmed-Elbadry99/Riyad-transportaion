@@ -2,22 +2,6 @@
 AOS.init();
 
 //! Scroll Sidebar
-// <<<<<<< HEAD
-// const sidebar = document.querySelector('.lisks-side-bar');
-// // console.log( "sidebar" ,sidebar);
-// let scrollTimer;
-
-// sidebar.addEventListener('scroll', () => {
-//     sidebar.classList.add('show-scroll');
-
-//     clearTimeout(scrollTimer);
-//     scrollTimer = setTimeout(() => {
-//         sidebar.classList.remove('show-scroll');
-//     }, 1000);
-// });
-
-
-// =======
 const sidebar = document.querySelector(".lisks-side-bar");
 let scrollTimer;
 
@@ -30,24 +14,10 @@ sidebar.addEventListener("scroll", () => {
   }, 1000);
 });
 
-// >>>>>>> f186c48b4104bcc0fa63f8c1e4885398b2a3aca7
 //! Button Notification
-// const btnNotification = document.querySelector(".icons button.notification");
-// const leftPart = document.querySelector(".left-part");
-// const closeIcon = document.querySelector(".left-part .close-icon");
-// // <<<<<<< HEAD
-// console.log( "btnNotification" ,btnNotification);
-
-// btnNotification.addEventListener("click",function(){
-//     leftPart.classList.add("responsive");
-// });
-// closeIcon.addEventListener("click",function(){
-//     leftPart.classList.remove("responsive");
-// });
-
-
-
-// =======
+const btnNotification = document.querySelector(".icons button.notification");
+const leftPart = document.querySelector(".left-part");
+const closeIcon = document.querySelector(".left-part .close-icon");
 console.log(closeIcon);
 
 btnNotification.addEventListener("click", function () {
@@ -57,33 +27,10 @@ closeIcon.addEventListener("click", function () {
   leftPart.classList.remove("responsive");
 });
 
-// >>>>>>> f186c48b4104bcc0fa63f8c1e4885398b2a3aca7
 //! Dropdown Btn
 const dropdown = document.querySelector(".dropdown");
 const btn = document.getElementById("dropdownBtn");
 
-// <<<<<<< HEAD
-if(dropdown){
-    btn.addEventListener("click", () => {
-        dropdown.classList.toggle("active");
-    });
-    
-    // يقفل القايمة لما تدوسي براها 👇
-    window.addEventListener("click", (e) => {
-        if (!dropdown.contains(e.target)) {
-            dropdown.classList.remove("active");
-        }
-    });
-
-}
-
-
-
-
-
-
-
-// =======
 if (dropdown) {
   btn.addEventListener("click", () => {
     dropdown.classList.toggle("active");
@@ -97,31 +44,10 @@ if (dropdown) {
   });
 }
 
-// >>>>>>> f186c48b4104bcc0fa63f8c1e4885398b2a3aca7
 // losts table filter
 const filterBtn = document.getElementById("filter-btn");
 const filterContainer = document.querySelector(".filter-container");
 
-// <<<<<<< HEAD
-if(filterBtn){
-
-
-    
-filterBtn.addEventListener("click", function(){
-    filterContainer.classList.toggle("open")
-})
-
-window.addEventListener("click", (e) => {
-    if (!filterContainer.contains(e.target) && !filterBtn.contains(e.target)) {
-        filterContainer.classList.remove("open");
-    }
-});
-}
-
-
-
-
-// =======
 if (filterBtn) {
   filterBtn.addEventListener("click", function () {
     filterContainer.classList.toggle("open");
@@ -134,33 +60,10 @@ if (filterBtn) {
   });
 }
 
-// >>>>>>> f186c48b4104bcc0fa63f8c1e4885398b2a3aca7
 // progress
 const progressBar = document.querySelector(".lost-progress .progress-bar");
 const steps = document.querySelectorAll(".lost-progress .step");
 
-// <<<<<<< HEAD
-// function updateProgress() {
-//     const doneCount = document.querySelectorAll(".lost-progress .step.done").length;
-    
-//     progressBar.classList.remove("progress-50", "progress-75", "progress-100");
-    
-//     if (doneCount === 1) {
-//         progressBar.classList.add("progress-50");
-//     } else if (doneCount === 2) {
-//         progressBar.classList.add("progress-75");
-//     } else if (doneCount === 3) {
-//         progressBar.classList.add("progress-100");
-//     }
-// }
-
-// updateProgress();
-
-
-function updateProgress1() {
-    // امسح أي next موجود قبل التحديث
-    steps.forEach(s => s.classList.remove("next"));
-// =======
 if (progressBar) {
   function updateProgress() {
     const doneCount = document.querySelectorAll(
@@ -183,7 +86,6 @@ if (progressBar) {
   function updateProgress1() {
     // امسح أي next موجود قبل التحديث
     steps.forEach((s) => s.classList.remove("next"));
-// >>>>>>> f186c48b4104bcc0fa63f8c1e4885398b2a3aca7
 
     // هات آخر step واخدة done
     const doneSteps = document.querySelectorAll(".lost-progress .step.done");
@@ -195,19 +97,12 @@ if (progressBar) {
     // أضف next للخطوة اللي بعدها بس
     const nextStep = steps[lastDoneIndex + 1];
     if (nextStep) {
-// <<<<<<< HEAD
-        nextStep.classList.add("next");
-    }
-}
-
-updateProgress1();
-// =======
       nextStep.classList.add("next");
     }
   }
 
   updateProgress1();
-// }
+}
 
 // const messages = document.querySelector(
 //   ".app-data .cahtsDetails .cahtsDetailsBox"
@@ -377,13 +272,10 @@ inputChat.addEventListener("keyup", function (e) {
     btnSend.click();
   }
 });
-// >>>>>>> f186c48b4104bcc0fa63f8c1e4885398b2a3aca7
 
 
 
 
-// <<<<<<< HEAD
-// =======
 
 let listChatItem = document.querySelectorAll(".list-item .list-item-text .info-user p");
 
@@ -424,5 +316,3 @@ fileBtnClose.addEventListener("click", function (e) {
   });
   chatListOverlay.classList.add("close");
 });
-
-// >>>>>>> f186c48b4104bcc0fa63f8c1e4885398b2a3aca7

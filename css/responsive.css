@@ -1,5 +1,4 @@
-@media (max-width: 1500px) {
-
+@media (max-width: 1540px) {
     .page-title-container .info .icons button.notification,
     .top-content .info .icons button.notification {
         display: flex;
@@ -448,7 +447,7 @@
         height: calc(100vh - 180px);
     }
 
->>>>>>> f186c48b4104bcc0fa63f8c1e4885398b2a3aca7
+/* >>>>>>> f186c48b4104bcc0fa63f8c1e4885398b2a3aca7 */
 }
 
 @media (max-width: 650px) {
